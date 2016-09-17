@@ -24,3 +24,8 @@ gen-production: clean
 
 publish: CV racelist gen-production	
 	rsync -e ssh -r deploy_production/ willett@lucifer11.spa.umn.edu:public_html/
+
+publish-github: CV racelist
+	hyde gen 
+	hyde publish -p github
+
