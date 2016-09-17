@@ -1,6 +1,6 @@
 My personal webpage, built with [Hyde](http://hyde.github.io/).
 
-See the rendered version at http://homepages.spa.umn.edu/~willett/
+See the rendered version at https://willettk.github.io.
 
 Adapted from work by [Jake VanderPlas](https://github.com/jakevdp/website).
 
@@ -25,7 +25,16 @@ Generate site for production:
 
     make gen-production
 
-Publish site via SSH (SSH publisher requires hyde version > 0.8.6):
+Publish to Github:
+
+    make gen
+    hyde publish -p github -m <COMMIT MESSAGE>
+    
+Or if you're feeling lazy and you want to skip the commit message:
+
+    make publish-github
+
+Publish to university servers (SSH publisher requires hyde version > 0.8.6):
 
     make publish
 
