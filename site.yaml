@@ -39,3 +39,9 @@ tagger:
             archive_extension: html
             meta:
                 listable: false
+
+publisher:
+    github:
+        type: hyde.ext.publishers.dvcs.Git
+        path: ../willettk.github.io/
+        url: git@github.com:willettk/willettk.github.io.git
