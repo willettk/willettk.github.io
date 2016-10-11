@@ -1,0 +1,525 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Scoop</title>
+    <meta name="description" content="travels of scoop the pelican">
+    <meta name="keywords" content="kyle willett,scoop,scoop the pelican">
+<link rel=stylesheet type="text/css" href="media/css/ssc.css">
+<link href="media/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+</head>
+<body> 
+    <h1>
+        <div align=center>
+            Mon p'tit p&eacute;lican. 
+        </div>
+    </h1>
+
+    <h4>
+        <center>
+            Scoop is a small pelican of mine who likes to travel and have his picture taken. Six continents and counting. 
+        </center>
+
+    </h4>
+<hr>
+
+<h2 align="center"> <u> Places he's been </u> </h2>
+<table align="center">
+    <tr>
+        <th>
+            <script src="http://cdn.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+            <script src="http://cdn.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+            <script src="http://cdn.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+            <div id="mapdiv_world" style="width: 500px; height: 450px;"></div>
+                <script type="text/javascript">
+                    var map = AmCharts.makeChart("mapdiv_world",{
+                    type: "map",
+                    theme: "dark",
+                    pathToImages : "http://cdn.amcharts.com/lib/3/images/",
+                    panEventsEnabled : true,
+                    backgroundColor : "#535364",
+                    backgroundAlpha : 1,
+                    zoomControl: {
+                    panControlEnabled : true,
+                    zoomControlEnabled : true
+                    },
+                    dataProvider : {
+                    map : "worldHigh",
+                    getAreasFromMap : true,
+                    areas :
+                    [
+                    	{
+                    		"id": "AR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "AT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "AU",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "BE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "BR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "BW",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CH",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CL",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CN",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CO",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "CZ",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "DE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "EC",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "ES",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "FR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "GB",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "GH",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "GR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "HR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "IE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "IS",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "IT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "JP",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "LI",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "MG",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "MX",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "NA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "NI",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "NL",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "NO",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "NZ",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "PR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "SE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "SG",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "SI",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "SM",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "TT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "TW",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "VA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "ZA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "ZM",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "ZW",
+                    		"showAsSelected": true
+                    	}
+                    ]
+                    },
+                    areasSettings : {
+                    autoZoom : true,
+                    color : "#B4B4B7",
+                    colorSolid : "#fb6a4a",
+                    selectedColor : "#fb6a4a",
+                    outlineColor : "#666666",
+                    rollOverColor : "#9EC2F7",
+                    rollOverOutlineColor : "#000000"
+                    }
+                    });
+                </script>
+        </th>
+        <th>
+            <script src="http://cdn.amcharts.com/lib/3/maps/js/usaHigh.js" type="text/javascript"></script>
+            <script src="http://cdn.amcharts.com/lib/3/themes/light.js" type="text/javascript"></script>
+            <div id="mapdiv_us" style="width: 500px; height: 450px;"></div>
+                <script type="text/javascript">
+                    var map = AmCharts.makeChart("mapdiv_us",{
+                    type: "map",
+                    theme: "light",
+                    pathToImages : "http://cdn.amcharts.com/lib/3/images/",
+                    panEventsEnabled : true,
+                    backgroundColor : "#535364",
+                    backgroundAlpha : 1,
+                    zoomControl: {
+                    panControlEnabled : true,
+                    zoomControlEnabled : true
+                    },
+                    dataProvider : {
+                    map : "usaHigh",
+                    getAreasFromMap : true,
+                    areas :
+                    [
+                    	{
+                    		"id": "US-AK",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-AZ",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-CA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-CO",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-CT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-DC",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-DE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-FL",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-GA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-HI",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-IA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-IL",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-IN",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-KY",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-LA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-MA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-MD",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-ME",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-MN",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-MO",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NC",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NE",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NH",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NJ",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NM",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NV",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-NY",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-OH",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-OK",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-OR",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-PA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-SC",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-SD",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-TN",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-TX",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-UT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-VA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-VT",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-WA",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-WI",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-WV",
+                    		"showAsSelected": true
+                    	},
+                    	{
+                    		"id": "US-WY",
+                    		"showAsSelected": true
+                    	}
+                    ]
+                    },
+                    areasSettings : {
+                    autoZoom : true,
+                    color : "#B4B4B7",
+                    colorSolid : "#6baed6",
+                    selectedColor : "#6baed6",
+                    outlineColor : "#666666",
+                    rollOverColor : "#9EC2F7",
+                    rollOverOutlineColor : "#000000"
+                    }
+                    });
+                </script>
+        </th>
+    </tr>
+</table>
+
+<hr>
+
+<h2 align="left"> <u> International Trips </u> </h2>
+<ul type="square">
+	<li> <a href="https://lh3.googleusercontent.com/qwooAkezeuUQhZr5-HAjUuz0JtJNM7Y8ZxwUGf112mLo=w518-h343-no" data-lightbox="countries" data-title="Venice, Italy.">Italy</a>/Vatican City/<a href="https://lh3.googleusercontent.com/6-ZR5OYHWkc2anD9J7RukyTQOb-OTG3WI-ImexVWeVzA=w518-h783-no" data-lightbox="countries" data-title="Paris, France.">France</a> (family, 1997) </li>
+	<li> <a href="https://lh3.googleusercontent.com/8w8loVtC9M35_aA2g2PLNFNZQ0YzOqYBzCZF3DAqzk64=w1175-h783-no" data-lightbox="countries" data-title="Bergen, Norway.">Norway</a>/Sweden (Diane/K2, 1998) </li>
+	<li> New Zealand (K2, 2000)</li>
+	<li> <a href="https://lh3.googleusercontent.com/l6HPQ-jKjuVmjykoBgIVF3Kjuc9NHdz4WcNbcDoEKlt9=w516-h783-no" data-lightbox="countries" data-title="Moraine Lake, Alberta, Canada.">Canada</a> (family, 2001) </li>
+	<li> <a href="https://lh3.googleusercontent.com/s_od6zZRTiivZAPE2kk9mjHUqhelWcB6yZUBARiOXh7f=w517-h783-no" data-lightbox="countries" data-title="Gullfoss, Iceland.">Iceland</a>/<a href="https://lh3.googleusercontent.com/ZSNkq0Gz4LrREjkAi3FlP6L2WkUc24ScsCiY3SOkZHOo=w1181-h783-no" data-lightbox="countries" data-title="London, United Kingdom.">United Kingdom</a> (family, 2002)</li>
+	<li> <a href="https://lh3.googleusercontent.com/PsGd2ZDge-ItgMYinGcSqM1Mi7nz0TfF8gWVIvd7zcU=w523-h783-no" data-lightbox="countries" data-title="Fianarantsoa, Madagascar.">Madagascar</a>/France/<a href="https://lh3.googleusercontent.com/33vn1b5cDH-Z2QYy30vR4mNd-DjCUQkbQ-dND6gQjNMJ=w527-h783-no" data-lightbox="countries" data-title="Gruy&egrave;res, Switzerland.">Switzerland</a> (K1, 2003) </li>
+	<li> <a href="https://lh3.googleusercontent.com/CpMwhnOi1RdBIvrtzuIu4YI9Qx1jRitNACvGBLOcChw=w895-h671-no" data-lightbox="countries" data-title="Sydney, Australia.">Australia</a> (K1, 2004) </li>
+	<li> Australia (K1, 2005) </li>
+	<li> <a href="https://lh3.googleusercontent.com/7ioOlJliR3Sfb75IhtRcvDfw-4YigxdZHN7UWHgZGKLr=w1122-h783-no" data-lightbox="countries" data-title="Peguche, Ecuador.">Ecuador</a>/<a href="https://lh3.googleusercontent.com/IHq7CgdGz77fOH9nmIk3lvbkainv27eZQbnnv0VpTt03=w1176-h783-no" data-lightbox="countries" data-title="Bartolom&eacute; Island, Gal&aacute;pagos, Ecuador.">Galapagos</a> (Adam/Karen, 2006?)</li>
+	<li> <a href="https://lh3.googleusercontent.com/rV3ORWXnybNGz-QycEwzIRZHaYcQtdgfFQqFYbjyLB0=w504-h671-no" data-lightbox="countries" data-title="Nicaragua.">Nicaragua</a> (K2, 2007) </li>
+	<li> <a href="https://lh3.googleusercontent.com/-UIesxxbKSNI/RuXtbdQPkNI/AAAAAAAAAVA/IvrmGaWkGIg/s912/P8060210.JPG" data-lightbox="countries" data-title="Accra, Ghana.">Ghana</a> (K2, 2007) </li>
+	<li> <a href="https://lh3.googleusercontent.com/Bwx-7DK2Sx0fkHdMVbGGh8l4TcvwO8n9YAFQEKNKGQ8k=w753-h783-no" data-lightbox="countries" data-title="Zhuhai, China.">China</a>/Japan (Diane, 2007) </li>
+	<li> <a href="https://lh3.googleusercontent.com/8NnepEaTx4AyNGkK52fwIC2d5kZfa3pCLxM7LvJLLGTX=w1025-h783-no" data-lightbox="countries" data-title="Xochicalco, Mexico.">Mexico</a> (Diane/Steve, 2007) </li>
+	<li> <a href="https://lh3.googleusercontent.com/I9obLsMfgRVB8PHQ3vfsX8lDDOXkWiNNImzoD5Dazoc=w895-h671-no" data-lightbox="countries" data-title="Giant's Causeway, Northern Ireland.">Ireland</a> (family, 2009)</li>
+	<li> <a href="https://lh3.googleusercontent.com/a-lUaQJKSFFXnRjhVUN0k3GU7f9OYiKpsf1qmtTK9uM=w952-h592-no" data-lightbox="countries" data-title="Arecibo Observatory, Puerto Rico.">Puerto Rico</a> (K1, 2009)</li>
+	<li> <a href="https://lh3.googleusercontent.com/DPJHsVpwUf1zXbw4nlcZy_Jv1B4hj_xhgspw7nCjJGei=w895-h671-no" data-lightbox="countries" data-title="Shanghai, China.">China</a>/<a href="https://lh3.googleusercontent.com/RbjVT3RZCpIjyGfnGC72A0g7yHYfQBX2HMl7wfkXeA4W=w895-h671-no" data-lightbox="countries" data-title="Hsinchu, Taiwan.">Taiwan</a>/Singapore (Steve, 2009)</li>
+	<li> <a href="https://lh3.googleusercontent.com/E754E1kUZ4gtQ-V26T72Tuf9oFiJmKhTTlUO5GOKMDE=w592-h562-no" data-lightbox="countries" data-title="Chania, Greece.">Greece</a> (K1, 2010)</li>
+	<li> <a href="https://lh3.googleusercontent.com/ZYnf_cfxSsdQTr-dIw9oUEO_R-ALF5AG8sucnkZBA7Fe=w895-h671-no" data-lightbox="countries" data-title="Los Antiguos, Argentina.">Argentina</a> (Chelsea, 2011) </li>
+	<li> Namibia/South Africa (Chelsea, 2011) </li>
+	<li> <a href="https://lh3.googleusercontent.com/hvx6MzUfzRq4FbwAM2BjImRmT-0vpZ_5ykj07Mzl2Og=w895-h671-no" data-lightbox="countries" data-title="Cape Town, South Africa.">South Africa</a> (K1, 2012) </li>
+	<li> <a href="https://lh3.googleusercontent.com/wU9nFOes9psGE3AyoNBteiW2vrjyu3z2BPKrqcSFyPI=w504-h671-no" data-lightbox="countries" data-title="Nottingham, United Kingdom.">United Kingdom</a> (K1, 2012) </li>
+	<li> <a href="https://lh6.googleusercontent.com/-kTKmoMvLpAI/VbL2XQX9hBI/AAAAAAAAKvo/wS3ReZrLURU/w526-h702-no/IMG_9998.JPG" data-lightbox="countries" data-title="Vienna, Austria.">Austria</a>/<a href="https://lh6.googleusercontent.com/-0FfeE1tM4_4/VbL1tM97GBI/AAAAAAAAKvo/ORFAWitjxhk/w526-h702-no/IMG_2503.JPG" data-lightbox="countries" data-title="Triglav National Park, Slovenia.">Slovenia</a>/<a href="https://lh3.googleusercontent.com/kj79u4fgPlyn7e9Ka9L6I7tjo09Pr69zmzpOMafe3ks=w504-h671-no" data-lightbox="countries" data-title="Valun, Croatia.">Croatia</a> (K1 and Zanna, 2012) </li>
+	<li> <a href="https://lh3.googleusercontent.com/AlnGqkizKS-oaWHBcbqxhgWn54TXdnO3eSQdbNmn8Nc=w657-h671-no" data-lightbox="countries" data-title="Heathrow Airport, United Kingdom.">United Kingdom</a> (K1, 2013) </li>
+	<li> <a href="https://lh3.googleusercontent.com/V483QCPQblLlq5pHnnUdvSiQwgoPMZtRvgvTgn8jIYM=w690-h671-no" data-lightbox="countries" data-title="Z&uuml;rich, Switzerland.">Switzerland</a>/France/<a href="https://lh3.googleusercontent.com/OqGHVNME8r1MNKrfqSqLSireoMUAaghkvHkmVcW1Ivk=w962-h783-no" data-lightbox="countries" data-title="Bruges, Belgium.">Belgium</a>/Germany/Netherlands (K1 and Zanna, 2013) </li>
+	<li> <a href="https://lh3.googleusercontent.com/IJG8API1e1UGFA2dqj_p84JidP485rUiH173OoOztYM=w504-h671-no" data-lightbox="countries" data-title="Cartagena, Colombia.">Colombia</a> (K2, 2013) </li>
+	<li> Botswana/South Africa/Zambia/Zimbabwe (K2, 2014) </li>
+	<li> <a href="https://lh3.googleusercontent.com/lectiU_4y0DVWrxj_XYWaj2U4BWttjBZglVawBQuETk=w895-h672-no" data-lightbox="countries" data-title="London, United Kingdom.">United Kingdom</a>/<a href="https://lh3.googleusercontent.com/D4G5XB4qS6GO9oLesRw5sqywmeYTiEpJdyqVk_pcqP4=w952-h636-no" data-lightbox="countries" data-title="Prague, Czech Republic.">Czech Republic</a>/<a href="https://lh3.googleusercontent.com/60ZhcDqUyl4BcMT0s4tNuIIm9289a2B7m_XA7_8FNbk=w504-h671-no" data-lightbox="countries" data-title="Garmisch-Partenkirchen, Germany.">Germany</a>/Austria/Switzerland/<a href="https://lh3.googleusercontent.com/Bosjtlwkp9gUDKf0sjQGrog_tJZQtIwJ4omR0Km0XuM=w860-h671-no" data-lightbox="countries" data-title="Der F&uuml;rstensteig, Liechtenstein.">Liechtenstein</a>/Netherlands (K1, 2014) </li>
+	<li> <a href="https://lh3.googleusercontent.com/osLSzig7tgVNZN5_Vlwcl14xOaiS3MaxnUosNFHolJMC=w504-h671-no" data-lightbox="countries" data-title="Torres del Paine, Chile.">Chile</a> (K1 and Zanna, 2015)</li>
+	<li> United Kingdom (K1, 2015) </li>
+	<li> <a href="https://lh3.googleusercontent.com/HPpidp-uvAoZs0n9JOOzfbbqGO7jazIDNdX5Lwjqd0hH=w378-h671-no" data-lightbox="countries" data-title="Trinidad and Tobago.">Trinidad and Tobago</a> (Chelsea, 2015)</li>
+	<li> <a href="https://lh3.googleusercontent.com/gbzATeClCbJVHgtkhDx0TDVfAw6alNPdR8vT3wozk5c_L-giw_ILPzc5v6yqqYLNqWTL3xjK-a90Zw1rkMVpNddj2KaRkG7gQ13nmkJS4KXSiT7jWakNDhHdjUfga2zTRgSemt7onlRUobwEZJJILuWwyMyIfYus7H-dnGAHgy9UJS6yAxuBfRn0F-7xfMfu7RxYdSwY1IhnDeTYj8Z2SmUMc-8Oxduxm8VmMCS-OcIJKrGdkOfwLwrnp7-NHsfwGQgEsGfYG24qthXs7tOkpGciPAbhQzRx5U-Ksrjrq-1KUTm8KMoYhKJgEPWo1drmP-fMee0WuGaLkxp3eCjfEw6foyoIsHImZFPhhArUEn7bqBOeJC_FDB4E9Z1ykJKjO4qAmuX67j6Z3qaKKwhR9g_8TBa74ksEFEcg5mZgoIbAr-chVnrg_zz1Qeyo8ZGo2t05nrzsXmc0Z2YOOpthAVPsDgtgFv5gwsxX7ep3pK_j4PnULbEU8KMNROMpLmy3nMnKtuRqxtO7LeFoKaQar-EIFizU2CEE5O2n-N2IF_T8=w526-h755-no" data-lightbox="countries" data-title="Paris, France.">France</a>/<a href="https://lh3.googleusercontent.com/CiLl5ioLeu0ScWQ8k8YnLz9ndRodUHCB0b7IY6Up1vGd4xDcq7NdpJfo8_eMhdAClRVrEergSfPBwTnujz-Kub8_XdXWxH77klz8QpPVcgAXGsp2LxejE1nuEIP3zmBWOt6lz7FpH46kVoIZO0WKCh6cqkxshztd2ZGknMR7bPtkgV9GtYBSO0X4G9rFLZj8BOLooATCr7xnd1kEgraFckBDautzdHzmUvAFxroxp-833af_0EGVpkYQnTqpWGfAWZI2Ct3c9cWl84ool15sEnG1bLiW1vKOqUxfOzdH5ZbUFzMd5-e6a9CTeO0eh9iBfqrjY0B7m4hCgzb4ukcCjhNRlFrf-dycqoW7Lbb-9-cuZnXlHLcaWqIlnPkRPFOznROgTsAojMISrb6CPk6l8iqyyENI6NKXRNd2NRAlo1FNb-0xEcbnI24ThIC6aDyopyJDL7Q3-S4Wq3fkPWxmgdcYn3cmQqmLLhq6pCHJIk-nUYzpFT9xN7X4PShd6mOp92FN2_Mx8pb-uYmO-YV3fiqKM1_Zral_vYxbcfZttBIe=w682-h755-no" data-lightbox="countries" data-title="Bologna, Italy.">Italy</a>/<a href="https://lh3.googleusercontent.com/H0-CobHaVs2KFC56b9o65kLOmWNtE69PRIONSkz9w_bzJwC9m_dJ47TPprf5QN07o44dslRLEkwwzb-tQxS0KA1mgkwzDzV0q16KSYxszz5bhJCK-AIdzuci7EvaZQrQbpj0sxq_LJJgRf3kL8N9UmcLv1j1DuJWTrOdW_XEnhb516LbY2CXExlnBc2iCSdp8C9jFDLNZx_-epndwus9OQhWUrHwA6NtINg9V9erIXybyXH0GjztzdSZjHc1Zt2qzmlT-XGfjqc-4eadGZmLKVlyZxHJy5IbiFsNkLelZ3ftqGq2EUxedV0QwGhxd14EFzCZM-M5yJQLdyT6Bzeio0cKpAEM33_b5SB2gFJky3PxlJCMO91uvM1cvblbfgyVz7b-m67mspRzdZemNJvpAAu31SPBWXOf1KtRjw7QGY0YFALL1_l1bnfDZ828cWELqiE--nvA6g2tASgfde59StpukKI7eBqMObCNmDT-g89A2PEdQ3slTSWdcMeORDF9q9-3myr1ITk_4hHeokRz6yIG_C3ddI7hdsIp0SgfwGJg=w582-h755-no" data-lightbox="countries" data-title="San Marino, San Marino.">San Marino</a> (K1, 2015) </li>
+	<li> <a href="https://lh3.googleusercontent.com/C4gX9KMDQBEzyLS4VuG79MQYc5qEWfNC-pWfQl1_9qeUBSAnkWXBzE0KQ3ftIfpOMs3wEHLUSViLKc_-nNnGeCufps4yk_kZMfb_8PkhcVOyH6bISiLn148573OIr3SOuR4jLkoWOMuEwzMIX1ptJE4amYjXzJ6tLpvSv9AFlej_-XCaDKlicdZErqBTNpeDpEY4vgHad5fNC-luC4wsUOQtPBa3aVgWp39tsKoDqoRrd3AwvnrquRlKBw1UeRzch2SEbdoIDhfhy45Mof0TqxUGzmgjqqnG4f3RXxcpsnlyIN662vyOVPmmIkjfFlFjX_VtOSWXwwXYYj-3dFXhSZ46ZmUHqV7cyhOOg6HyUHeFlE0v4QS1KZstfFr6bA1O40w5mIC824591w-TSvxM7r5xlvXBr4U3l8VJM-EVnenChhWeYpgq8a2S7joSXkjo6CBmqt9ESSBNvOXAfYtXJr_0pcj20RJoKBHIu1hV8DY4LY99W_EA6KntjVWic2slWTY5CXDnwOfXfhbeuypvjT_ElSWkAmclW8eTdlv4juWk1RI19Hy0JW12QhvUmRIB_imD9iVWw1sak4U96MVY4D3Li3vRYskX=w382-h561-no" data-lightbox="countries" data-title="Granada, Spain.">Spain</a> (Diane/Steve, 2016)</li>
+	<li> <a href="https://lh3.googleusercontent.com/w3rnymVXUPrfHN8hADlhtCRue7PLT8-ns8xokMhBMPtvYGnPKp8uudsI5BwIYQtaXS2SZEdT-sQ=w860-h760-no" data-lightbox="countries" data-title="Rio de Janeiro, Brazil.">Brazil</a> (Chelsea, 2016) </li>
+</ul>
+
+<h2 align="left"> <u> Country highpoints </u> </h2>
+<ul type="square">
+	<li> Singapore (Bukit Timah; 164 m)</li>
+	<li> Netherlands (<a href="https://lh3.googleusercontent.com/NIlD8Vhm1U9BjUoTp980cMNEfN5G9z-tFSWq7IzvTRU8=w504-h671-no" data-lightbox="highpoints" data-title="Vaalserberg, Netherlands. 323 m.">Vaalserberg; 323 m</a>)</li>
+	<li> Germany (<a href="https://lh3.googleusercontent.com/XXdKdqJgoPhLQUFXhIBKy0N9_fQW6LY4gMqp2dvtTkY=w793-h671-no" data-lightbox="highpoints" data-title="Zugspitze, Germany. 2962 m.">Zugspitze; 2962 m</a>)</li>
+	<li> San Marino (<a href="https://lh3.googleusercontent.com/JCq_m2ElyRap-ubAXhd1x9b-8ZxJ73qzeWSRZKTlblH25xndnmRjp7gtgOhZzkmg0idkGfCsF8JA_96fr_bX9DxyIy6UiAk1k83AhvAvCMtoVfzIU2YlCjR_eJRa6f-ZQFZv6VlxDkCs9wR2Tz-ebq4p36MnYXeMwjoRqGEv-oovqyBbfhPBsB_ec_lD8H9XM0nQFOleqgAeEe85245WLqgnu8BewYJ1JvHEHR1IAE8JnpLK5ZRN1jtbceSvWvaMJY-k8m980QOspPNu7TusBvWQxcxf5TWTukvJ8GQ7Qej3LdRqr9ajYCHdCD7jzE4YOpvXPniUwKkAt65uuvKu4uAzX4YZpG5dSSubT38NdaCe9KZTWMI0bc8xA0bwgbhIDmxmdZBM0lpH1MWft30TmxAxwVVzzudifdq_LdWKZ2CqM7WkDwJ2Y9jMIqLpPVCQliliAC3X-yLYBIi0VMlIBn1aK11frZxWNbXA-iffzImXptteBem8JUl4sA5t4tQ036X-zKNcoQmtzJYtJQFkXFzpmVdvdi03LW0Fpv8bj--h=w428-h755-no" data-lightbox="highpoints" data-title="Monte Titano, San Marino. 739 m.">Monte Titano; 739 m</a>)</li>
+</ul>
+
+<h2 align="left"> <u> State highpoints </u> </h2>
+<ul type="square">
+	<li> Arizona (Humphreys Peak</a>; 12,637 ft.)</li>
+	<li> Hawai'i (<a href="https://lh3.googleusercontent.com/FZpVwFmsz3LCqKwr72RFGsVPpE0lzJ_ayg7YKv5OcHs=w895-h671-no" data-lightbox="highpoints" data-title="Mauna Kea, Hawai'i. 13803 ft.">Mauna Kea; 13,803 ft.</a>)</li>
+	<li> Maine (<a href="https://lh3.googleusercontent.com/yqYtTTwUxk7zzRWmvWT06g6xT6NaIlXaqwTj8Ty0k1s=w895-h671-no" data-lightbox="highpoints" data-title="Katahdin, Maine. 5270 ft.">Katahdin; 5,270 ft.</a>)</li>
+	<li> West Virginia (Spruce Knob; 4,863 ft.)</li>
+	<li> Indiana (<a href="https://lh3.googleusercontent.com/lunZ8hAslw0Lsl1ZyFt8ZW6ceikZxdAMVWN8yN9eUCJcc7Ag4eVX8KCHVdX3rCgzhdbuYFeQ1Oh_l8HbqYiGtd_ZzEkmlYKB6lmfTjyR1T2uhzyLd32jZzAXrwb7zdmcXiDkSfC2gd7g4gXEt6XbQk1rCK7rSD41tyIxmjvQaZcDX6-ywjCgDfggdNlOLp-3gP4GZdNtAAVqsdHpWyytqCC1QXIQ7UvSeCI0dAVfE6CASaKy1avsHcvjh135i6RFBOwlf93fFBtWiANb5N4H-yLhc49TXHIyOEtawAoPF-GYs7uvoVOLMTNGsEdlDhSromkD0z3u5nGvW-7M0uEVJt3M34TlylJBbfVtuIzyrw8gv0O7hHTOqAHpgMbyyZyIrjkl0JB1_754UKVFYJwpLZff6Veys_spzhwuzZnGncp7nl1Ely7q4Di2_XPHDY420skyoDIHo1ipoehK4PM394_yBhCDOwRbnEkUg_pbQ7kc8waiHBMeU0FqxukVH5ghyuHje2hE0CMLOxQV1f4WrL-4hQFGWuz4jsORrgf0HFtV1GheB5uGusgnqBqFCZeAxjKWQozVtQMvLcZbAJLpK7PJagdoXXcS=w644-h740-no" data-lightbox="highpoints" data-title="Hoosier Hill, Indiana. 1257 ft.">Hoosier Hill; 1,257 ft.</a>)</li>
+</ul>
+<hr>
+
+<br>
+
+<table  align="center" cellpadding="5" cellspacing="5" border="2">
+    <caption> </caption>
+    <tr>
+        <th> <a href=http://picasaweb.google.com/willettk> Photos </a> </th>
+        <th> <a href=../astro.html> Astro </a> </th>
+        <th> <a href=../links.html> Links </a> </th>
+        <th> <a href=me.html> Me </a> </th>
+        <th> <a href=scoop.html> Scoop </a> </th>
+        <th> <a href=../index.html> Main </a> </th>
+    </tr>
+</table>
+<br>
+<center>
+
+Direct your rants to <a href=mailto:willettk_NOSPAM@gmail.com>Kyle Willett</a>.</center>
+<br>
+
+<p>
+<script src="media/lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+
+</body>
+</html>
