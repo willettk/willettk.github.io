@@ -32,11 +32,11 @@ Publish to Github:
     
 Or if you're feeling lazy and you want to skip the commit message:
 
-    make publish-github
+    make publish
 
 Publish to university servers (SSH publisher requires hyde version > 0.8.6):
 
-    make publish
+    make publish-lucifer
 
 License
 =======

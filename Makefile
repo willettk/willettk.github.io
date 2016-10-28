@@ -22,9 +22,9 @@ clean:
 gen-production: clean
 	hyde gen -c production.yaml
 
-publish: CV racelist gen-production	
+publish-lucifer: CV racelist gen-production	
 	rsync -e ssh -r deploy_production/ willett@lucifer11.spa.umn.edu:public_html/
 
-publish-github: gen
+publish: gen
 	hyde publish -p github
 
