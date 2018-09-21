@@ -39,5 +39,5 @@ nosetests.xml
 
 # Larger original images
 media/images/scoop/original
-content/media/images/scoop/original
+content/media/images/scoop
 deploy/media/images/scoop/original
