@@ -36,3 +36,8 @@ nosetests.xml
 
 # Swap files in vi
 .*.sw[a-z]
+
+# Larger original images
+media/images/scoop/original
+content/media/images/scoop/original
+deploy/media/images/scoop/original
