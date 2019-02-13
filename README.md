@@ -12,6 +12,13 @@ Requires hyde:
 
 Also pdflatex (for CV to be auto-generated)
 
+----
+
+Media files need to be placed under `./media/` to be deployed to server when
+publishing.
+
+----
+
 Generate version for local development:
 
     make gen
