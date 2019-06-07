@@ -17,6 +17,16 @@ Also pdflatex (for CV to be auto-generated)
 Media files need to be placed under `./media/` to be deployed to server when
 publishing.
 
+Optional resizing:
+
+1. Place full-size version in `./media/images/{path}/original/{imagename}`. 
+1. Resize: `convert ./media/images/{path}/original/{imagename}`. -resize 650x650 ./media/images/{path}/{imagename}`
+
+Publishing:
+
+1. make gen-production
+1. make publish
+
 ----
 
 Generate version for local development:
