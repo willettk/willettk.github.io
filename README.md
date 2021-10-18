@@ -28,6 +28,11 @@ Publishing:
 1. make publish
 
 ----
+Editing: with the exception of `racelist.html`, files should be edited in `content/`. Running `make publish` then will copy them for deployment. 
+
+Why does this work with about.html, but not scoop.html?
+
+----
 
 Generate version for local development:
 
