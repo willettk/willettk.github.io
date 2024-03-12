@@ -17,9 +17,11 @@ Also pdflatex (for CV to be auto-generated)
 Media files need to be placed under `./media/` to be deployed to server when
 publishing.
 
+To see them in the local version, add to `./deploy/media`
+
 Optional resizing:
 
-1. Place full-size version in `./media/images/{path}/original/{imagename}`. 
+1. Place full-size version in `./media/images/{path}/original/{imagename}`.
 1. Resize: `convert ./media/images/{path}/original/{imagename}`. -resize 650x650 ./media/images/{path}/{imagename}`
 
 Publishing:
@@ -28,7 +30,7 @@ Publishing:
 1. make publish
 
 ----
-Editing: with the exception of `racelist.html`, files should be edited in `content/`. Running `make publish` then will copy them for deployment. 
+Editing: with the exception of `racelist.html`, files should be edited in `content/`. Running `make publish` then will copy them for deployment.
 
 Why does this work with about.html, but not scoop.html?
 
@@ -51,7 +53,7 @@ Publish to Github:
 
     make gen
     hyde publish -p github -m <COMMIT MESSAGE>
-    
+
 Or if you're feeling lazy and you want to skip the commit message:
 
     make publish
@@ -63,4 +65,3 @@ Publish to university servers (SSH publisher requires hyde version > 0.8.6):
 License
 =======
 This work is under a [BSD 2-clause license](http://opensource.org/licenses/BSD-2-Clause)
-
