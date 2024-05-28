@@ -41,3 +41,5 @@ nosetests.xml
 media/images/scoop/original
 content/media/images/scoop
 deploy/media/images/scoop/original
+
+.DS_Store
