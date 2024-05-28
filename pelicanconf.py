@@ -50,3 +50,9 @@ EXTRA_PATH_METADATA = {
     'extra/LICENSE': {'path': 'LICENSE'},
     'extra/README': {'path': 'README'},
 }
+ARTICLE_EXCLUDES = [
+        'extra/tablesort',
+]
+PAGE_EXCLUDES = [
+        'extra/tablesort',
+]
