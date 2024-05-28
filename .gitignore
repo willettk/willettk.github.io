@@ -43,3 +43,18 @@ content/media/images/scoop
 deploy/media/images/scoop/original
 
 .DS_Store
+
+## Tablesort
+
+content/extra/tablesort/.editorconfig
+content/extra/tablesort/.eslintrc
+content/extra/tablesort/.gitignore
+content/extra/tablesort/.nvmrc
+content/extra/tablesort/.travis.yml
+content/extra/tablesort/GruntFile.js
+content/extra/tablesort/_config.yml
+content/extra/tablesort/bower.json
+content/extra/tablesort/package-lock.json
+content/extra/tablesort/package.json
+content/extra/tablesort/test/
+
