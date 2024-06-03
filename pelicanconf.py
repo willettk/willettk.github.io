@@ -56,3 +56,5 @@ ARTICLE_EXCLUDES = [
 PAGE_EXCLUDES = [
         'extra/tablesort',
 ]
+
+PLUGINS = ['render_math']
