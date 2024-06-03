@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-05-27T00:00:00-07:00</updated><entry><title>Causal ML</title><link href="https://willettk.github.io/causal-ml.html" rel="alternate"></link><published>2024-05-27T00:00:00-07:00</published><updated>2024-05-27T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-05-27:/causal-ml.html</id><content type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. Adding notes here to track my progress. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-06-02T00:00:00-07:00</updated><entry><title>Causal ML - Intro and Chapter 1</title><link href="https://willettk.github.io/causal-ml-intro-and-chapter-1.html" rel="alternate"></link><published>2024-06-02T00:00:00-07:00</published><updated>2024-06-02T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-02:/causal-ml-intro-and-chapter-1.html</id><summary type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. My goals are to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Read the whole book; to try and maintain momentum, I'm shooting for 1 month timeframe. Basically a chapter every other day.&lt;/li&gt;
+&lt;li&gt;Run through the associated notebooks in Python …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. My goals are to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Read the whole book; to try and maintain momentum, I'm shooting for 1 month timeframe. Basically a chapter every other day.&lt;/li&gt;
+&lt;li&gt;Run through the associated notebooks in Python to work with actual data and implementation.&lt;/li&gt;
+&lt;li&gt;Run through at least one code examples in R (rather than my staple of Python), to try to improve my ability to work in another language. &lt;/li&gt;
+&lt;li&gt;Take notes on the core concepts, and include areas where I think this could be applied to current and future work.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;Chapter 1: Predictive Inference with Linear Regression in Moderately High Dimensions&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Notes&lt;/em&gt;&lt;/p&gt;</content><category term="misc"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Races this year</title><link href="https://willettk.github.io/races-this-year.html" rel="alternate"></link><published>2024-05-25T00:00:00-07:00</published><updated>2024-05-25T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-05-25:/races-this-year.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_1.pdf"&gt;PDF link to Chapter 1&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It's interesting to think about the implication that the best linear predictor is not found from setting &lt;span class="math"&gt;\(E[(Y - \beta^\prime X)] = 0\)&lt;/span&gt;, but rather &lt;span class="math"&gt;\(E[(Y - \beta^\prime X)X] = 0\)&lt;/span&gt;. This comes from the fact that this minimizes the &lt;strong&gt;mean squared error&lt;/strong&gt; and not the mean absolute error; not sure if the solution for MAE could be defined since it's non-differentiable.&lt;ul&gt;
+&lt;li&gt;Simple decomposition of the solution: &lt;span class="math"&gt;\(Y = \beta^\prime X + \varepsilon\)&lt;/span&gt;, where the residual &lt;span class="math"&gt;\(\varepsilon\)&lt;/span&gt; is orthogonal to the covariate vector &lt;span class="math"&gt;\(X\)&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Authors refer to the "law of iterated expectations", which is an alternative name for the "&lt;a href="https://en.wikipedia.org/wiki/Law_of_total_expectation"&gt;law of total expectation&lt;/a&gt;". The special case of samples is clearer to me for a practical purpose, similar to how one works out total probabilities for a simple Bayesian approach: &lt;span class="math"&gt;\(E[X] = \sum_i E[X|A_i]P[A_i]\)&lt;/span&gt;. Conditional expectation is important since one can use a &lt;strong&gt;linear combination of non-linear transforms&lt;/strong&gt; to solve the best prediction problem.&lt;/li&gt;
+&lt;li&gt;Moving to finite samples &amp;mdash; i.e., the real world &amp;mdash; just replaces the theoretical expectation values with empircal averages over the existing sample. Going from &lt;span class="math"&gt;\(\beta\)&lt;/span&gt; to &lt;span class="math"&gt;\(\hat{\beta}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;The decomposition is a clean way to think about how the variance is explained. For &lt;span class="math"&gt;\(E[Y^2] = E[(\beta^\prime X)^2] + E[\varepsilon^2]\)&lt;/span&gt;, the latter term is the population mean squared error. So &lt;span class="math"&gt;\(R^2\)&lt;/span&gt; (either for the population or the sample) is literally the ratio of explained variation by the best linear predictor to the total variation, and is bounded between 0 and 1. This is a good approximation for &lt;span class="math"&gt;\((\textrm{number of }\beta) &amp;lt;&amp;lt; (\textrm{number of samples})\)&lt;/span&gt;, or &lt;span class="math"&gt;\(p/n\)&lt;/span&gt; being small. This can be formally adjusted in a regression, and is automatically provided as a fit parameter if using standard packages like &lt;code&gt;statsmodels&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;I understand the math of partialling out, but link to the earlier material needs a reread. Redo the &lt;a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/PM1/python-ols-and-lasso-for-wage-gap-inference.ipynb"&gt;wage-gap notebook&lt;/a&gt; for a practical example.&lt;/li&gt;
+&lt;li&gt;Also, why is &lt;span class="math"&gt;\(\beta_1\)&lt;/span&gt; not primed but &lt;span class="math"&gt;\(\beta_2^\prime\)&lt;/span&gt; is?&lt;/li&gt;
+&lt;li&gt;Despite having been introduced to them about a dozen times, lasso (and ridge) aren't intuitive concepts to me. Maybe this time through I'll find a better way to make them stick (other than the handwaving statement of "it penalizes certain bits of your regression/helps with overfitting"), which is nowhere near an actual understanding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Miscellanea on Pelican and HTML stuff&lt;/h4&gt;
+&lt;p&gt;As an aside, starting to write these posts resulted in realizing that Markdown as rendered in the browser doesn't natively support mathmode/LaTeX in the same way that Jupyter or IDE Markdown renderers do. the plugin &lt;a href="https://github.com/pelican-plugins/render-math"&gt;render-math&lt;/a&gt; worked well for Pelican right out of the box (although the package has \&amp;lt;30 stars on Github as of Jun 2024, so I'm a bit worried about long-term support/interest). Just &lt;code&gt;pip install pelican-render-math&lt;/code&gt; and add the plugin to &lt;code&gt;pelicanconf.py&lt;/code&gt;. It does take the extra second or so for MathJax to render tech, but I'm grateful that this worked quite easily so far.&lt;/p&gt;
+&lt;p&gt;I also was reminded that Pelican automatically names the output HTML files according to the title in the metadata; the actual filename is ignored. This slightly annoys me in that it won't be clear on how content maps to output, if I'm trying to compare? Eg, I can have a content file named &lt;code&gt;content/foobar.md&lt;/code&gt;. If that file has the following content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;apples&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;apples&lt;/span&gt;
+
+&lt;span class="n"&gt;Veggies&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;es&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;bonus&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;vobis&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;proinde&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;vos&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;postulo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;essum&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;magis&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;kohlrabi&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;welsh&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;onion&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;daikon&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;amaranth&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tatsoi&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tomatillo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;melon&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;azuki&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;bean&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;garlic&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This article will be rendered as &lt;code&gt;output/apples_to_apples.html&lt;/code&gt;, and would change depending on whatever the title is. It seems confusing in that I don't know what to name my article files now for best practice. &lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="causal_ml"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Races this year</title><link href="https://willettk.github.io/races-this-year.html" rel="alternate"></link><published>2024-05-25T00:00:00-07:00</published><updated>2024-05-25T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-05-25:/races-this-year.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;
