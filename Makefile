@@ -93,7 +93,11 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-push_content: publish
+push_content:
 	git push origin $(CONTENT_BRANCH)
+
+gh_full:
+	github
+	push_content
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish ssh_upload sftp_upload rsync_upload github
