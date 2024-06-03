@@ -96,6 +96,6 @@ github: publish
 push_content:
 	git push origin $(CONTENT_BRANCH)
 
-gh_full: github push_content
+gh_full: clean github push_content
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish ssh_upload sftp_upload rsync_upload github
