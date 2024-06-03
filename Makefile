@@ -13,7 +13,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
-GITHUB_PAGES_BRANCH=main
+GITHUB_PAGES_BRANCH=master
+CONTENT_BRANCH=pelican-content
 
 
 DEBUG ?= 0
@@ -92,5 +93,7 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+push_content: publish
+	git push origin $(CONTENT_BRANCH)
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish ssh_upload sftp_upload rsync_upload github
