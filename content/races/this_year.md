@@ -57,6 +57,13 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/11496583747" target="_blank">19.8 mi</a></td>
         </tr>
         <tr>
+            <td><center> 6/8/24 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td><center> 8.2 mi</td>
+            <td><center><a href="https://www.strava.com/activities/11605518421" target="_blank">1:08:43</a></td>
+        </tr>
+        <tr>
             <td><center> 8/10/24 </td>
             <td> <a href="https://www.evergreentrailruns.com/larrabee-lakes/">Larrabee Lakes</a> </td>
             <td> Bellingham, WA </td>
