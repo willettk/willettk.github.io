@@ -1,5 +1,5 @@
 Title: Causal ML - Chapter 2
-date: 2024-06-04
+date: 2024-06-16
 tags: causal, ml, work
 
 ## Chapter 2: Causal Inference via Randomized Experiments
