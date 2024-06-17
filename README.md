@@ -9,7 +9,7 @@ Quick steps for publishing any updates:
     * runs the pelican publish command to convert all the Markdown articles and pages to static HTML, using the installed theme. This re-populates the output directory.
     * uses the `ghp-import` command to add the contents of the output directory to the local version of the github-pages branch (`master`) in this repo.
     * pushes the changes to `master` (the page itself) to GitHub. After it's pushed, GitHub Actions will deploy the webpage itself, usually within less than 1 minute.
-    * push the changes in *content* to the `pelican-content` branch on GitHub. This doesn't affect any of the rendered content on the webpage (which is based only on `master`), but is best practice so that there's a remote version of the raw content.
+    * push the changes in **content** to the `pelican-content` branch on GitHub. This doesn't affect any of the rendered content on the webpage (which is based only on `master`), but is best practice so that there's a remote version of the raw content.
 
 Note that one downside of this is that GitHub still tracks all branches with respect to their status. So the more changes that are pushed, the more GitHub will report that the `pelican-content` branch is "X commits ahead, Y commits behind `master`". 
 
@@ -18,7 +18,7 @@ Note that one downside of this is that GitHub still tracks all branches with res
 - [ ] read FAQs, tips from [Pelican documentation](https://docs.getpelican.com/en/latest/index.html)
 - [ ] migrate content for `scoop.html`
 - [ ] migrate posts from old pelican blog?
-- [ ] set an automatic makefile for publishing, including pushing to master (see [tutorial](https://opensource.com/article/19/5/run-your-blog-github-pages-python)); possible [useful link](https://clamytoe.github.io/articles/2020/Feb/28/pelican/)
+- [x] set an automatic makefile for publishing, including pushing to master (see [tutorial](https://opensource.com/article/19/5/run-your-blog-github-pages-python)); possible [useful link](https://clamytoe.github.io/articles/2020/Feb/28/pelican/)
 - [ ] add documentation to this README
 - [ ] add links to:
     * [elegant theme](https://elegant.oncrashreboot.com/)
