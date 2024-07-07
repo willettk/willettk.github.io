@@ -5,7 +5,7 @@
 Short version:
 
 1. In the branch `pelican-content`, make changes in the `content/` folder. 
-2. git commit the changes locally.
+2. git **add & commit** the changes locally.
 3. Run `make gh_full`.
 
 Slightly longer explanation
