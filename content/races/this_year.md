@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-07-07
+date: 2024-07-21
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -68,7 +68,7 @@ tags: running
             <td> <a href="https://www.raspberryrun.com/">Hopkins Raspberry Run</a> </td>
             <td> Hopkins, MN </td>
             <td><center> 1 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/11946163364" target="_blank">5:39</a></td>
         </tr>
         <tr>
             <td><center> 8/10/24 </td>
