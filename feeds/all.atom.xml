@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-07-07T00:00:00-07:00</updated><entry><title>Races in 2024</title><link href="https://willettk.github.io/races-in-2024.html" rel="alternate"></link><published>2024-07-07T00:00:00-07:00</published><updated>2024-07-07T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-07-07:/races-in-2024.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-07-21T00:00:00-07:00</updated><entry><title>Races in 2024</title><link href="https://willettk.github.io/races-in-2024.html" rel="alternate"></link><published>2024-07-21T00:00:00-07:00</published><updated>2024-07-21T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-07-21:/races-in-2024.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;
@@ -106,7 +106,7 @@
             &lt;td&gt; &lt;a href="https://www.raspberryrun.com/"&gt;Hopkins Raspberry Run&lt;/a&gt; &lt;/td&gt;
             &lt;td&gt; Hopkins, MN &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 1 mi&lt;/td&gt;
-            &lt;td&gt;&lt;center&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/11946163364" target="_blank"&gt;5:39&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 8/10/24 &lt;/td&gt;
@@ -127,116 +127,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../running-races.html"&gt;All my races&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Causal ML - Chapter 2</title><link href="https://willettk.github.io/causal-ml-chapter-2.html" rel="alternate"></link><published>2024-06-16T00:00:00-07:00</published><updated>2024-06-16T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-16:/causal-ml-chapter-2.html</id><summary type="html">&lt;h2&gt;Chapter 2: Causal Inference via Randomized Experiments&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_2.pdf"&gt;PDF link to Chapter 2&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Notes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Reminding myself about Chapter 1 as a start, since I've been a few days between these. Key points that I think this will build on were the theoretical derivation of the best linear predictor; statistical properties of …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Chapter 2: Causal Inference via Randomized Experiments&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_2.pdf"&gt;PDF link to Chapter 2&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Notes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Reminding myself about Chapter 1 as a start, since I've been a few days between these. Key points that I think this will build on were the theoretical derivation of the best linear predictor; statistical properties of least squares and how to attribute different parts of variance; adjusting for small &lt;span class="math"&gt;\(p/n\)&lt;/span&gt;; and "partialling out" as a technique for explaining the effect of what happens when a single random variable changes while others are constant.&lt;/li&gt;
-&lt;li&gt;Super short summary: if you randomize (plus other assumptions) and split into two samples, the difference in average outcomes between treated and untreated is the ATE. Using treatment covariates can improve the measurement, and causal diagrams are a method for interpreting the context of the effect.&lt;/li&gt;
-&lt;li&gt;The necessity of defining "the underlying state of the world" as a mapping &lt;span class="math"&gt;\(\omega \mapsto V[\omega]\)&lt;/span&gt; falls somewhere between unnecessary and mathematically pretentious on first reading. &lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"The inability to simultaneously observe a unit under both treatment and control is the fundamental problem of causal inference". - Holland (1986).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Seems fair.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;key assumptions, which I should know cold:&lt;ul&gt;
-&lt;li&gt;consistency (&lt;span class="math"&gt;\(Y \coloneqq Y[treatment]\)&lt;/span&gt;; i.e., no hidden variation in treatment)&lt;/li&gt;
-&lt;li&gt;no interference; potential outcomes for any individual unit are not affected by treatment assignment to other units. &lt;ul&gt;
-&lt;li&gt;this is one assumption probably is violated at least mildly in fee change analyses; raising fees on one segment could cause price and ad shifting, which changes economic competition and thus the possible response from other merchants.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;consistency + no interference &lt;span class="math"&gt;\(\equiv\)&lt;/span&gt; &lt;strong&gt;stable unit-treatment value assumption&lt;/strong&gt;, or &lt;strong&gt;SUTVA&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;drumming notation into my head. &lt;span class="math"&gt;\(D\)&lt;/span&gt; (and I think most capitalized variables) is a &lt;em&gt;random variable&lt;/em&gt;, which here corresponds to treatment assignment. &lt;span class="math"&gt;\(d\)&lt;/span&gt; is the (potential) treatment state, which has actual assigned values 0,1 for binary treatment. &lt;/li&gt;
-&lt;li&gt;the &lt;em&gt;delta method&lt;/em&gt; is introduced and insufficiently explained when trying to present the concept of relative effectiveness. I've heard this referenced in work-related projects before, so it seems fundamental enough that it's worth a deeper dive.&lt;/li&gt;
-&lt;li&gt;The example in the &lt;a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/CM1/python-rct-vaccines.ipynb#scrollTo=g-wCDeWCkYem"&gt;colab notebook on vaccine efficacy&lt;/a&gt; is useful in that it's an incredibly recent and relevant case study, which is excellent for motivating an accurate measurement. When calculating the CIs, though, the worked out examples aren't sufficent for me to feel confident repeating it. Authors assert "it's Bernoulli, so X then Y" - but they don't fill in the basics of why the former applies and then how that results in either of the applied variances. This is fairly basic stats and maybe this book should assume readers are beyond that point, but it stirs more mild frustration in me instead of comprehension. On the other hand, the handy breakdown of &lt;code&gt;sm.stats.Table2x2&lt;/code&gt; is extremely useful (although it abstracts away all the assumptions that should go into its use). Useful but dangerous! &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Part 2 - pre-treatment covariates and heterogeneity&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A common mistake seems to center around conditioning on post-treatment covariates, rather than pre-treatment only. Pointed out that, for example, if units with missing covariates are dropped from the analysis (a natural urge), this is equivalent to conditioning on a post-treatment variable. This violates the random assigment assumption.&lt;/li&gt;
-&lt;li&gt;Basics: average outcome in the untreated state is &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt;, and the average outcome in the treated state is &lt;span class="math"&gt;\((\alpha + \beta_1)\)&lt;/span&gt;. So the lift as I usually think of it in causal inference is &lt;span class="math"&gt;\(\alpha/\beta_1\)&lt;/span&gt;, or the relative ATE. &lt;/li&gt;
-&lt;li&gt;The colab notebook asserts that there's an important difference between the ATE computed using non-robust standard errors and robust standard errors. I don't understand what they're referring to in the data, nor do I appreciate what they mean by an "efficient" estimator (vs an accurate or biased one, for example). &lt;em&gt;(later find that this means lower standard errors)&lt;/em&gt; I'm generally finding that the explanation and quality of the coding notebooks is markedly worse than in the text. &lt;/li&gt;
-&lt;li&gt;possible useful functions in Python:&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;from joblib import Parallel, delayed&lt;/code&gt; - fairly basic way to use multiple processors for execution of functions (&lt;a href="https://joblib.readthedocs.io/en/latest/parallel.html"&gt;see documentation example&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;patsy&lt;/code&gt; - package for describing statistical models in Python. Seems a more robust method of the formula-type language used in R. &lt;a href="https://patsy.readthedocs.io/en/latest/overview.html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;np.linalg.qr&lt;/code&gt; - useful tip for using QR-decomposition of a matrix to remove multicollinear columns.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;the differences between the two causal diagrams (RCT vs "RCT Research Design") seem somewhere between trivial and important but unexplained. I think it's to emphasize that the impact is from 1) the outcome process + 2) treatment assignment.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Miscellanea on Pelican and HTML stuff&lt;/h4&gt;
-&lt;p&gt;From the last post, I learned how to slightly modify &lt;code&gt;Makefile&lt;/code&gt; to support end-to-end publishing to both master and content branches on Github, which is handy.&lt;/p&gt;
-&lt;p&gt;I also wish/wonder if the authors would accept git commits to the notebooks (mostly) and the text (occasionally). Mild typos and errata always bug me, and this is exactly the sort of text that could easily crowdsource that from interested readers.&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="causal_ml"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2024-06-08T00:00:00-07:00</published><updated>2024-06-08T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-08:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2024-07-21T00:00:00-07:00</published><updated>2024-07-21T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-07-21:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -2693,6 +2584,17 @@
             &lt;td&gt;7&lt;/td&gt;&lt;td&gt;78&lt;/td&gt;
             &lt;td&gt;2&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 7/21/2024 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.raspberryrun.com/"&gt;Hopkins Raspberry Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Hopkins, MN &lt;/td&gt;
+            &lt;td&gt; 1.6 &lt;/td&gt;
+            &lt;td&gt; 1 &lt;/td&gt;
+            &lt;td&gt; 5:39 &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/11946163364" target="_blank"&gt;5:39&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;44&lt;/td&gt;&lt;td&gt;430&lt;/td&gt;
+            &lt;td&gt;6&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
+        &lt;/tr&gt;
 
     &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2702,7 +2604,116 @@
 &lt;/script&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Causal ML - Intro and Chapter 1</title><link href="https://willettk.github.io/causal-ml-intro-and-chapter-1.html" rel="alternate"></link><published>2024-06-02T00:00:00-07:00</published><updated>2024-06-02T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-02:/causal-ml-intro-and-chapter-1.html</id><summary type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. My goals are to:&lt;/p&gt;
+&lt;/html&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Causal ML - Chapter 2</title><link href="https://willettk.github.io/causal-ml-chapter-2.html" rel="alternate"></link><published>2024-06-16T00:00:00-07:00</published><updated>2024-06-16T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-16:/causal-ml-chapter-2.html</id><summary type="html">&lt;h2&gt;Chapter 2: Causal Inference via Randomized Experiments&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_2.pdf"&gt;PDF link to Chapter 2&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reminding myself about Chapter 1 as a start, since I've been a few days between these. Key points that I think this will build on were the theoretical derivation of the best linear predictor; statistical properties of …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;Chapter 2: Causal Inference via Randomized Experiments&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_2.pdf"&gt;PDF link to Chapter 2&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reminding myself about Chapter 1 as a start, since I've been a few days between these. Key points that I think this will build on were the theoretical derivation of the best linear predictor; statistical properties of least squares and how to attribute different parts of variance; adjusting for small &lt;span class="math"&gt;\(p/n\)&lt;/span&gt;; and "partialling out" as a technique for explaining the effect of what happens when a single random variable changes while others are constant.&lt;/li&gt;
+&lt;li&gt;Super short summary: if you randomize (plus other assumptions) and split into two samples, the difference in average outcomes between treated and untreated is the ATE. Using treatment covariates can improve the measurement, and causal diagrams are a method for interpreting the context of the effect.&lt;/li&gt;
+&lt;li&gt;The necessity of defining "the underlying state of the world" as a mapping &lt;span class="math"&gt;\(\omega \mapsto V[\omega]\)&lt;/span&gt; falls somewhere between unnecessary and mathematically pretentious on first reading. &lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"The inability to simultaneously observe a unit under both treatment and control is the fundamental problem of causal inference". - Holland (1986).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Seems fair.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;key assumptions, which I should know cold:&lt;ul&gt;
+&lt;li&gt;consistency (&lt;span class="math"&gt;\(Y \coloneqq Y[treatment]\)&lt;/span&gt;; i.e., no hidden variation in treatment)&lt;/li&gt;
+&lt;li&gt;no interference; potential outcomes for any individual unit are not affected by treatment assignment to other units. &lt;ul&gt;
+&lt;li&gt;this is one assumption probably is violated at least mildly in fee change analyses; raising fees on one segment could cause price and ad shifting, which changes economic competition and thus the possible response from other merchants.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;consistency + no interference &lt;span class="math"&gt;\(\equiv\)&lt;/span&gt; &lt;strong&gt;stable unit-treatment value assumption&lt;/strong&gt;, or &lt;strong&gt;SUTVA&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;drumming notation into my head. &lt;span class="math"&gt;\(D\)&lt;/span&gt; (and I think most capitalized variables) is a &lt;em&gt;random variable&lt;/em&gt;, which here corresponds to treatment assignment. &lt;span class="math"&gt;\(d\)&lt;/span&gt; is the (potential) treatment state, which has actual assigned values 0,1 for binary treatment. &lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;delta method&lt;/em&gt; is introduced and insufficiently explained when trying to present the concept of relative effectiveness. I've heard this referenced in work-related projects before, so it seems fundamental enough that it's worth a deeper dive.&lt;/li&gt;
+&lt;li&gt;The example in the &lt;a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/CM1/python-rct-vaccines.ipynb#scrollTo=g-wCDeWCkYem"&gt;colab notebook on vaccine efficacy&lt;/a&gt; is useful in that it's an incredibly recent and relevant case study, which is excellent for motivating an accurate measurement. When calculating the CIs, though, the worked out examples aren't sufficent for me to feel confident repeating it. Authors assert "it's Bernoulli, so X then Y" - but they don't fill in the basics of why the former applies and then how that results in either of the applied variances. This is fairly basic stats and maybe this book should assume readers are beyond that point, but it stirs more mild frustration in me instead of comprehension. On the other hand, the handy breakdown of &lt;code&gt;sm.stats.Table2x2&lt;/code&gt; is extremely useful (although it abstracts away all the assumptions that should go into its use). Useful but dangerous! &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Part 2 - pre-treatment covariates and heterogeneity&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A common mistake seems to center around conditioning on post-treatment covariates, rather than pre-treatment only. Pointed out that, for example, if units with missing covariates are dropped from the analysis (a natural urge), this is equivalent to conditioning on a post-treatment variable. This violates the random assigment assumption.&lt;/li&gt;
+&lt;li&gt;Basics: average outcome in the untreated state is &lt;span class="math"&gt;\(\alpha\)&lt;/span&gt;, and the average outcome in the treated state is &lt;span class="math"&gt;\((\alpha + \beta_1)\)&lt;/span&gt;. So the lift as I usually think of it in causal inference is &lt;span class="math"&gt;\(\alpha/\beta_1\)&lt;/span&gt;, or the relative ATE. &lt;/li&gt;
+&lt;li&gt;The colab notebook asserts that there's an important difference between the ATE computed using non-robust standard errors and robust standard errors. I don't understand what they're referring to in the data, nor do I appreciate what they mean by an "efficient" estimator (vs an accurate or biased one, for example). &lt;em&gt;(later find that this means lower standard errors)&lt;/em&gt; I'm generally finding that the explanation and quality of the coding notebooks is markedly worse than in the text. &lt;/li&gt;
+&lt;li&gt;possible useful functions in Python:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;from joblib import Parallel, delayed&lt;/code&gt; - fairly basic way to use multiple processors for execution of functions (&lt;a href="https://joblib.readthedocs.io/en/latest/parallel.html"&gt;see documentation example&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;patsy&lt;/code&gt; - package for describing statistical models in Python. Seems a more robust method of the formula-type language used in R. &lt;a href="https://patsy.readthedocs.io/en/latest/overview.html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;np.linalg.qr&lt;/code&gt; - useful tip for using QR-decomposition of a matrix to remove multicollinear columns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the differences between the two causal diagrams (RCT vs "RCT Research Design") seem somewhere between trivial and important but unexplained. I think it's to emphasize that the impact is from 1) the outcome process + 2) treatment assignment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Miscellanea on Pelican and HTML stuff&lt;/h4&gt;
+&lt;p&gt;From the last post, I learned how to slightly modify &lt;code&gt;Makefile&lt;/code&gt; to support end-to-end publishing to both master and content branches on Github, which is handy.&lt;/p&gt;
+&lt;p&gt;I also wish/wonder if the authors would accept git commits to the notebooks (mostly) and the text (occasionally). Mild typos and errata always bug me, and this is exactly the sort of text that could easily crowdsource that from interested readers.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="causal_ml"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Causal ML - Intro and Chapter 1</title><link href="https://willettk.github.io/causal-ml-intro-and-chapter-1.html" rel="alternate"></link><published>2024-06-02T00:00:00-07:00</published><updated>2024-06-02T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-06-02:/causal-ml-intro-and-chapter-1.html</id><summary type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. My goals are to:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Read the whole book; to try and maintain momentum, I'm shooting for 1 month timeframe. Basically a chapter every other day.&lt;/li&gt;
 &lt;li&gt;Run through the associated notebooks in Python …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;I've been slowly reading the online book &lt;a href="https://causalml-book.org/"&gt;CausalML&lt;/a&gt;, whose authors include some of my distant colleagues at Amazon. My goals are to:&lt;/p&gt;
