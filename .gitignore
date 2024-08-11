@@ -46,6 +46,7 @@ deploy/media/images/scoop/original
 
 ## Tablesort
 
+content/tablesort
 content/extra/tablesort/.editorconfig
 content/extra/tablesort/.eslintrc
 content/extra/tablesort/.gitignore
