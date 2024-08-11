@@ -2418,6 +2418,17 @@ tags: running
             <td>44</td><td>430</td>
             <td>6</td><td>31</td><td>M 40-49</td>
         </tr>
+        <tr>
+            <td><center> 8/10/2024 </td>
+            <td> <a href="https://www.evergreentrailruns.com/larrabee-lakes/">Larrabee Lakes</a> </td>
+            <td> Bellingham, WA </td>
+            <td> 25 </td>
+            <td> 15.5 </td>
+            <td> 9:52 </td>
+            <td><center><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
+            <td>2</td><td>79</td>
+            <td>1</td><td>10</td><td>M 40-49</td>
+        </tr>
 
     </tbody>
 </table>

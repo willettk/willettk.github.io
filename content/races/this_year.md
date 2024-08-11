@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-07-21
+date: 2024-08-10
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -75,7 +75,7 @@ tags: running
             <td> <a href="https://www.evergreentrailruns.com/larrabee-lakes/">Larrabee Lakes</a> </td>
             <td> Bellingham, WA </td>
             <td><center> 25 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
         </tr>
 
     </table>
