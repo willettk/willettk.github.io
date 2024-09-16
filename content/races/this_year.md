@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-08-10
+date: 2024-09-15
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -81,7 +81,7 @@ tags: running
             <td><center> 9/21/24 </td>
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
-            <td><center> 71.6 mi</td>
+            <td><center> 71.6 mi relay</td>
             <td><center></td>
         </tr>
         <tr>
