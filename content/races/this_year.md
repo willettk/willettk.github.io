@@ -78,13 +78,6 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
         </tr>
         <tr>
-            <td><center> 9/21/24 </td>
-            <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
-            <td> Olga, WA </td>
-            <td><center> 71.6 mi relay</td>
-            <td><center></td>
-        </tr>
-        <tr>
             <td><center> 10/5/24 </td>
             <td> <a href="https://nwtrailruns.com/events/middle-fork-trail-run/">Middle Fork Trail Run</a> </td>
             <td> North Bend, WA </td>
