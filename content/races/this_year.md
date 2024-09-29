@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-09-15
+date: 2024-09-28
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
