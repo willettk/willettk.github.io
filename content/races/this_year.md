@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-09-28
+date: 2024-10-06
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -82,7 +82,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/middle-fork-trail-run/">Middle Fork Trail Run</a> </td>
             <td> North Bend, WA </td>
             <td><center> 13.1 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>

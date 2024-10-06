@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-08-10
+date: 2024-10-06
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2428,6 +2428,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
             <td>2</td><td>79</td>
             <td>1</td><td>10</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 10/5/2024 </td>
+            <td> <a href="https://nwtrailruns.com/events/middle-fork-trail-run/">Middle Fork Trail Run</a> </td>
+            <td> North Bend, WA </td>
+            <td> 21.1 </td>
+            <td> 13.1 </td>
+            <td> 8:56 </td>
+            <td><center><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
+            <td>7</td><td>125</td>
+            <td>3</td><td>16</td><td>M 40-49</td>
         </tr>
 
     </tbody>
