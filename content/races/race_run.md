@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-10-06
+date: 2024-11-02
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2439,6 +2439,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
             <td>7</td><td>125</td>
             <td>3</td><td>16</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 11/2/2024 </td>
+            <td> <a href="https://nwtrailruns.com/events/carkeek-cooler-trail-run/">Carkeek Cooler</a> </td>
+            <td> Seattle, WA </td>
+            <td> 10 </td>
+            <td> 6.2 </td>
+            <td> 7:29 </td>
+            <td><center><a href="https://www.strava.com/activities/12806924983/overview" target="_blank">46:29</a></td>
+            <td>6</td><td>126</td>
+            <td>3</td><td>26</td><td>M 40-49</td>
         </tr>
 
     </tbody>

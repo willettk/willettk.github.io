@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-10-06
+date: 2024-11-02
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -83,6 +83,13 @@ tags: running
             <td> North Bend, WA </td>
             <td><center> 13.1 mi</td>
             <td><center><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
+        </tr>
+        <tr>
+            <td><center> 11/2/24 </td>
+            <td> <a href="https://nwtrailruns.com/events/carkeek-cooler-trail-run/">Carkeek Cooler</a> </td>
+            <td> Seattle, WA </td>
+            <td><center> 10 km</td>
+            <td><center><a href="https://www.strava.com/activities/12806924983/overview" target="_blank">46:29</a></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>
