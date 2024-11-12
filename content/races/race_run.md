@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-11-02
+date: 2024-11-09
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2450,6 +2450,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/12806924983/overview" target="_blank">46:29</a></td>
             <td>6</td><td>126</td>
             <td>3</td><td>26</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 11/9/2024 </td>
+            <td> <a href="https://www.evergreentrailruns.com/grand-ridge-2/">Grand Ridge Trail Runs</a> </td>
+            <td> Issaquah, WA </td>
+            <td> 21.1 </td>
+            <td> 13.1 </td>
+            <td> 10:11 </td>
+            <td><center><a href="https://www.strava.com/activities/12862072101" target="_blank">2:13:23</a></td>
+            <td>18</td><td>218</td>
+            <td>3</td><td>18</td><td>M 40-44</td>
         </tr>
 
     </tbody>
