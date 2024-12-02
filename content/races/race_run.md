@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-11-09
+date: 2024-12-01
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2461,6 +2461,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/12862072101" target="_blank">2:13:23</a></td>
             <td>18</td><td>218</td>
             <td>3</td><td>18</td><td>M 40-44</td>
+        </tr>
+        <tr>
+            <td><center> 11/28/2024 </td>
+            <td> <a href="https://trotforhunger.org/">America's Trot for Hunger</a> </td>
+            <td> Washington, DC </td>
+            <td> 5 </td>
+            <td> 3.1 </td>
+            <td> 6:10 </td>
+            <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
+            <td>51</td><td>1485</td>
+            <td>4</td><td>58</td><td>M 40-44</td>
         </tr>
 
     </tbody>

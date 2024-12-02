@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-11-26
+date: 2024-12-01
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -103,7 +103,7 @@ tags: running
             <td> <a href="https://trotforhunger.org/">America's Trot for Hunger</a> </td>
             <td> Washington, DC </td>
             <td><center> 5 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>
