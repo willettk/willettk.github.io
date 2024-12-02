@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-11-09
+date: 2024-11-26
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -97,6 +97,13 @@ tags: running
             <td> Issaquah, WA </td>
             <td><center> 13.1 mi</td>
             <td><center><a href="https://www.strava.com/activities/12862072101" target="_blank">2:13:23</a></td>
+        </tr>
+        <tr>
+            <td><center> 11/28/24 </td>
+            <td> <a href="https://trotforhunger.org/">America's Trot for Hunger</a> </td>
+            <td> Washington, DC </td>
+            <td><center> 5 km</td>
+            <td><center></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>
