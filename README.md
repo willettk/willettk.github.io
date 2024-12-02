@@ -1,6 +1,13 @@
 # README
 
-## Updating content
+## Checking locally
+
+1. In a terminal window, run `make regenerate`. This keeps output live as you save changes to the markdown.
+2. Open a new window or tab and run `make serve`. This will open a local version of the site. 
+
+With both steps above, now you can save changes to markdown, and check results. 
+
+## Publishing content
 
 Short version:
 
