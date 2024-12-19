@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-12-01
+date: 2024-12-18
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -104,6 +104,13 @@ tags: running
             <td> Washington, DC </td>
             <td><center> 5 km</td>
             <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
+        </tr>
+        <tr>
+            <td><center> 1/11/25 </td>
+            <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
+            <td> Kirkland, WA </td>
+            <td><center> 50 km</td>
+            <td><center></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>
