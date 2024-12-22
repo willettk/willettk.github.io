@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-12-18T00:00:00-08:00</updated><entry><title>Races in 2024</title><link href="https://willettk.github.io/races-in-2024.html" rel="alternate"></link><published>2024-12-18T00:00:00-08:00</published><updated>2024-12-18T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-12-18:/races-in-2024.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2024-12-21T00:00:00-08:00</updated><entry><title>Races in 2024</title><link href="https://willettk.github.io/races-in-2024.html" rel="alternate"></link><published>2024-12-21T00:00:00-08:00</published><updated>2024-12-21T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-12-21:/races-in-2024.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;
@@ -144,6 +144,13 @@
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/13001877705" target="_blank"&gt;19:08&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 12/21/24 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://nwtrailruns.com/events/seward-solstice-run/"&gt;Seward Solstice&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Seattle, WA &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt; 10 km&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/13163776054/overview" target="_blank"&gt;46:20&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 1/11/25 &lt;/td&gt;
             &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails&lt;/a&gt; &lt;/td&gt;
             &lt;td&gt; Kirkland, WA &lt;/td&gt;
@@ -169,7 +176,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../running-races.html"&gt;All my races&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2024-12-01T00:00:00-08:00</published><updated>2024-12-01T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-12-01:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2024-12-21T00:00:00-08:00</published><updated>2024-12-21T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2024-12-21:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -2691,6 +2698,17 @@
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/13001877705" target="_blank"&gt;19:08&lt;/a&gt;&lt;/td&gt;
             &lt;td&gt;51&lt;/td&gt;&lt;td&gt;1485&lt;/td&gt;
             &lt;td&gt;4&lt;/td&gt;&lt;td&gt;58&lt;/td&gt;&lt;td&gt;M 40-44&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 12/21/2024 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://nwtrailruns.com/events/seward-solstice-run/"&gt;Seward Solstice&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Seattle, WA &lt;/td&gt;
+            &lt;td&gt; 10 &lt;/td&gt;
+            &lt;td&gt; 6.2 &lt;/td&gt;
+            &lt;td&gt; 7:27 &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/13163776054/overview" target="_blank"&gt;46:20&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;8&lt;/td&gt;&lt;td&gt;134&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
 
     &lt;/tbody&gt;
