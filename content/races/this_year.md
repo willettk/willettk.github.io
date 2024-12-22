@@ -1,5 +1,5 @@
 Title: Races in 2024
-date: 2024-12-18
+date: 2024-12-21
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -104,6 +104,13 @@ tags: running
             <td> Washington, DC </td>
             <td><center> 5 km</td>
             <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
+        </tr>
+        <tr>
+            <td><center> 12/21/24 </td>
+            <td> <a href="https://nwtrailruns.com/events/seward-solstice-run/">Seward Solstice</a> </td>
+            <td> Seattle, WA </td>
+            <td><center> 10 km</td>
+            <td><center><a href="https://www.strava.com/activities/13163776054/overview" target="_blank">46:20</a></td>
         </tr>
         <tr>
             <td><center> 1/11/25 </td>

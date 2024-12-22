@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-12-01
+date: 2024-12-21
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2472,6 +2472,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
             <td>51</td><td>1485</td>
             <td>4</td><td>58</td><td>M 40-44</td>
+        </tr>
+        <tr>
+            <td><center> 12/21/2024 </td>
+            <td> <a href="https://nwtrailruns.com/events/seward-solstice-run/">Seward Solstice</a> </td>
+            <td> Seattle, WA </td>
+            <td> 10 </td>
+            <td> 6.2 </td>
+            <td> 7:27 </td>
+            <td><center><a href="https://www.strava.com/activities/13163776054/overview" target="_blank">46:20</a></td>
+            <td>8</td><td>134</td>
+            <td>2</td><td>19</td><td>M 40-49</td>
         </tr>
 
     </tbody>
