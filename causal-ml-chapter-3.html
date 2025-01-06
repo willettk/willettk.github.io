@@ -16,7 +16,7 @@
 <meta property="og:description" content="Chapter 3: Predictive Inference via Modern High-Dimensional Linear Regression PDF link to Chapter 3 Core concept: predictions in high-dimensional settings (\(p\gg n\); \(p\) is the number of regressors and \(n\) number of samples) by leveraging penalties on the size of the model. My expectations are that this should be …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width" />
 <meta property="og:site_name" content="Kyle Willett" />
 <meta property="og:article:author" content="Kyle Willett" />
-<meta property="og:article:published_time" content="2024-12-22T00:00:00-08:00" />
+<meta property="og:article:published_time" content="2025-01-05T00:00:00-08:00" />
 <meta name="twitter:title" content="Causal ML - Chapter 3 ">
 <meta name="twitter:description" content="Chapter 3: Predictive Inference via Modern High-Dimensional Linear Regression PDF link to Chapter 3 Core concept: predictions in high-dimensional settings (\(p\gg n\); \(p\) is the number of regressors and \(n\) number of samples) by leveraging penalties on the size of the model. My expectations are that this should be …if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen.width">
 
@@ -81,12 +81,63 @@
             <h2>Chapter 3: Predictive Inference via Modern High-Dimensional Linear Regression</h2>
 <p><a href="https://causalml-book.org/assets/chapters/CausalML_chap_3.pdf">PDF link to Chapter 3</a></p>
 <p><strong>Core concept</strong>: predictions in high-dimensional settings (<span class="math">\(p\gg n\)</span>; <span class="math">\(p\)</span> is the number of regressors and <span class="math">\(n\)</span> number of samples) by leveraging penalties on the size of the model. My expectations are that this should be a deep explanation of why <a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">lasso</a> works.</p>
+<p><em>(note: the chapter does mostly dive into lasso, but also reviews other types of possible regularization methods including <a href="https://en.wikipedia.org/wiki/Ridge_regression">ridge</a>, <a href="https://en.wikipedia.org/wiki/Elastic_net_regularization">elastic net</a>, and <a href="https://arxiv.org/abs/1502.03155">lava</a>)</em></p>
 <h3>Notes</h3>
 <ul>
 <li>two basic reasons why high-dimensional regressors require careful treatment: 1) many datasets have lots of potential features available and we should try to leverage them to improve predictive accuracy, and 2) transformation of raw regressors <span class="math">\(W\)</span> (aka "technical regressors" <span class="math">\(T(W)\)</span>; polynomial, interaction, log/exp, etc) can also approximate better prediction rules.</li>
-<li>asserts that approximate sparsity of coefficients will go as <span class="math">\(\beta_j \propto \frac{1}{j^2}\)</span> in terms of explanatory power of coefficients. </li>
+<li>Lasso regression problem, mathematically: minimize the following expression with respect to coefficients <span class="math">\(b \in \mathbb{R}^p\)</span>:</li>
 </ul>
-<h4>Miscellanea on Pelican and HTML stuff</h4>
+<blockquote>
+<p><span class="math">\((\sum_i^n{(Y_i - b^\prime X_i)^2}) + (\lambda \cdot \sum^p_{j=1} |b_j| \hat{\psi_j})\)</span></p>
+</blockquote>
+<ul>
+<li>The first component of Lasso (and all following regularization methods) is the in-sample mean squared error (times n) for the data; the second component is the lasso penalty, where loadings <span class="math">\(\psi_j\)</span> are usually set as the expectation value of the independent variables. <ul>
+<li><em>How is <span class="math">\(b^\prime\)</span> in the first term different (if it is) than <span class="math">\(b_j\)</span> in the penalty term?</em></li>
+<li><em>Note 6, page 76: asserts that Lasso might select a variable where <span class="math">\(\beta=0\)</span> but that has a high marginal predictive benefit. Why would that be the case - shouldn't a coefficient of result in no marginal predictive benefit?</em></li>
+</ul>
+</li>
+<li>Important: overall magnitude of estimated coefficients when incorporating the penalty will be smaller than the unpenalized least squares solution, if <span class="math">\(\lambda &gt; 0\)</span>. This is the definition of <strong>shrinkage/regularization bias</strong>.</li>
+<li>Choice of penalization parameter <span class="math">\(\lambda\)</span> is a black box (several parts are explained, but it still seems like practitioners are just encouraged to leave this to be calculated under the hood). Looks like it can be automatically found in <code>LassoCV</code> (scikit-learn) through cross-validation; parameter in that implementation is named <code>alpha</code>.</li>
+<li>Options can be either 1) use coefficients estimated directly from Lasso, including the bias toward shrinkage for the non-zero coefficients; <strong>or</strong> 2) OLS Post-Lasso; eg, use Lasso only to select non-zero coefficients and then refit using ordinary least squares. In the example, this tends to have slightly better estimates of the largest coefficients, but still underpredicts values for <span class="math">\(\sim \beta_2-\beta_5\)</span>.</li>
+<li>Lasso works best when assumed coefficients are sparse. Ridge works best in dense settings, and Lava for sparse+dense. <ul>
+<li><em>How to know a priori whether the intrinsic coefficients are sparse, dense, or a mixture of sparse+dense?</em><ul>
+<li>In practice, one way is just to split the data into training and testing sets and just choose the method that performs best on test set. (shrug)</li>
+<li>Another approach is to do the same but pick the model that has the highest scores after cross-validation.</li>
+</ul>
+</li>
+<li><em>Why does Lasso get to set values to zero and Ridge doesn't? I'm not clear why absolute value vs squaring would do that; if <span class="math">\(\beta_j\)</span> is zero, it doesn't make a difference either way. Is it from the penalty loading factor?</em></li>
+</ul>
+</li>
+<li>Elastic Net is a linear combination of Lasso + Ridge, with two different penalty levels chosen separately by cross-validation. Since there is a Lasso component, Elastic Net still does variable selection. Elastic Net works well when the regression coefficients are <strong>either</strong> sparse or dense, but not sparse+dense.</li>
+<li>Lava is not directly included in scikit-learn, but it's straightforward to construct using base estimators from <code>Ridge</code> and <code>Lasso</code> and literally just adding them. See the <a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/PM2/python_linear_penalized_regs.ipynb#scrollTo=boNconu7NXxs">notebook</a> for an example. The main difference between Elastic Net and Lava is that the former uses <em>all</em> coefficients for both penalization components, while Lava first separates components into dense and sparse parts and <strong>then</strong> determines the appropriate penalty levels and coefficients for each set. </li>
+</ul>
+<h3>Miscellaneous learnings from going through this chapter</h3>
+<h4>Python</h4>
+<p>In Python, one can add a bare <code>*</code> when defining a function (seen in the <a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/PM2/python_linear_penalized_regs.ipynb#scrollTo=sJ0IOVcLQuFO">notebook</a>). This doesn't change any of the inputs except that it forces all arguments <strong>after</strong> the <code>*</code> to be keyword only. </p>
+<div class="highlight"><pre><span></span><code>def func(x, y, <span class="gs">*, argname=&#39;foo&#39;):</span>
+<span class="gs">    print(x)</span>
+<span class="gs">    print(y)</span>
+<span class="gs">    print(argname)</span>
+
+<span class="gs"># Only works for:</span>
+
+<span class="gs">x=1</span>
+<span class="gs">y=2</span>
+<span class="gs">argval=&#39;bar&#39;</span>
+
+<span class="gs">func(x, y, argname=argval)</span>
+
+<span class="gs"># but not for</span>
+
+<span class="gs">func(x, y, argval)</span>
+
+<span class="gs"># whereas if the bare `*</span>` isn&#39;t included, both would work.
+
+func(x, y, argname=argval)
+func(x, y, argval)
+</code></pre></div>
+
+<p>So this seems useful for enforcing keyword over positional arguments.</p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -166,7 +217,7 @@
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2024-12-22T00:00:00-08:00">Dec 22, 2024</time>
+            <time itemprop="dateCreated" datetime="2025-01-05T00:00:00-08:00">Jan 5, 2025</time>
             <h4>Category</h4>
             <a class="category-link" href="https://willettk.github.io/categories.html#causal_ml-ref">causal_ml</a>
             <h4>Tags</h4>
