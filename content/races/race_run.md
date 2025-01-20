@@ -2493,7 +2493,7 @@ tags: running
             <td> 10:13 </td>
             <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
             <td>8</td><td>38</td>
-            <td></td><td></td><td>M 40-49</td>
+            <td>6</td><td>25</td><td>M</td>
         </tr>
 
     </tbody>
