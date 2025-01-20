@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-01-05
+date: 2025-01-11
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -26,7 +26,7 @@ tags: running
             <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
             <td> Kirkland, WA </td>
             <td><center> 50 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>

@@ -1,5 +1,5 @@
 Title: Running races
-date: 2024-12-21
+date: 2025-01-11
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -638,7 +638,7 @@ tags: running
         </tr>
         <tr>
             <td> 1/8/2011 </td>
-            <td> <a href="http://www.seattlerunningclub.org/Events/Bridle/bridle.html"> Bridle Trails Winter Running Festival </a> </td>
+            <td> <a href="http://www.seattlerunningclub.org/Events/Bridle/bridle.html"> Bridle Trails </a> </td>
             <td> Kirkland, WA</td>
             <td> 16.1</td>
             <td> 10</td>
@@ -1474,7 +1474,7 @@ tags: running
         </tr>
         <tr>
             <td> 1/14/2017 </td>
-            <td> <a href="http://www.seattlerunningclub.org/Events/Bridle/bridle.html">Bridle Trails Winter Running Festival</a> </td>
+            <td> <a href="http://www.seattlerunningclub.org/Events/Bridle/bridle.html">Bridle Trails </a> </td>
             <td> Kirkland, WA</td>
             <td> 16.1 </td>
             <td> 10 </td>
@@ -2483,6 +2483,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/13163776054/overview" target="_blank">46:20</a></td>
             <td>8</td><td>134</td>
             <td>2</td><td>19</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 1/11/2025 </td>
+            <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
+            <td> Kirkland, WA </td>
+            <td> 50 </td>
+            <td> 31.1 </td>
+            <td> 10:13 </td>
+            <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
+            <td>8</td><td>38</td>
+            <td></td><td></td><td>M 40-49</td>
         </tr>
 
     </tbody>
