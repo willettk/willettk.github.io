@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-01-11T00:00:00-08:00</updated><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-01-11T00:00:00-08:00</published><updated>2025-01-11T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-01-11:/races-in-2025.html</id><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-01-26T00:00:00-08:00</updated><entry><title>Causal ML - Chapter 4</title><link href="https://willettk.github.io/causal-ml-chapter-4.html" rel="alternate"></link><published>2025-01-26T00:00:00-08:00</published><updated>2025-01-26T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-01-26:/causal-ml-chapter-4.html</id><summary type="html">&lt;h2&gt;Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_4.pdf"&gt;PDF link to Chapter 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors' viewpoint, this moves from &lt;em&gt;predictive&lt;/em&gt; inference (i.e., what happens to the outcome …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_4.pdf"&gt;PDF link to Chapter 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors' viewpoint, this moves from &lt;em&gt;predictive&lt;/em&gt; inference (i.e., what happens to the outcome) to &lt;em&gt;statistical&lt;/em&gt; inference (i.e., is there a robust understanding of how the outcome depends on changes to input predictor).&lt;/p&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chapters 1 and 2 covered estimation of a predictive effect + confidence interval for regression; Chapters 3 and 4 extend the same respective concepts to high-dimensional models.&lt;/li&gt;
+&lt;li&gt;This chapter starts with &lt;strong&gt;double lasso&lt;/strong&gt;, which &lt;em&gt;is not the same&lt;/em&gt; as &lt;strong&gt;double/debiased ML&lt;/strong&gt;. Double lasso is fairly simple:&lt;ol&gt;
+&lt;li&gt;Run two lasso regressions: &lt;span class="math"&gt;\(Y\)&lt;/span&gt; on &lt;span class="math"&gt;\(W\)&lt;/span&gt; and &lt;span class="math"&gt;\(D\)&lt;/span&gt; on &lt;span class="math"&gt;\(W\)&lt;/span&gt; and get residuals &lt;span class="math"&gt;\(\tilde{Y}\)&lt;/span&gt; and &lt;span class="math"&gt;\(\tilde{D}\)&lt;/span&gt;. &lt;/li&gt;
+&lt;li&gt;Run least-squares regression of &lt;span class="math"&gt;\(\tilde{Y}\)&lt;/span&gt; on &lt;span class="math"&gt;\(\tilde{D}\)&lt;/span&gt; to get the estimator &lt;span class="math"&gt;\(\hat{\alpha}\)&lt;/span&gt;. &lt;span class="math"&gt;\(\hat{\alpha}\)&lt;/span&gt; is the &lt;strong&gt;partialled-out&lt;/strong&gt; effect of D on Y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;There is a theoretical approach to calculating the standard error for &lt;span class="math"&gt;\(\hat{\alpha}\)&lt;/span&gt;, which is mildly complex but depends only on estimates of the matrices for the target regressor, the noise, and the number of samples. &lt;/li&gt;
+&lt;li&gt;Again, authors argue that cross-validation using standard approaches is not suitable for a small sample due to overfitting. I appreciate the caution and the difference is clear in terms of the results in the notebook, but the examples do not show why the cross-validated result is wrong (other than an appeal to a priori values of the estimator). Relying on the outcome of the black-box package (&lt;code&gt;hdmpy&lt;/code&gt;/&lt;a href="https://cran.r-project.org/web/packages/hdm/index.html"&gt;HDM in R&lt;/a&gt;) doesn't really teach me anything or help me evaluate when to apply cross-validation vs theoretical penalties. I don't like this section as a technique; it has a valuable larger point, but the provided approach is insufficient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Miscellaneous learnings from going through this chapter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installing the required R packages for the notebook on country-level growth convergence took 5 minutes on Colab, as opposed to 23 seconds for Python. Not impressed with speed of R here.&lt;/li&gt;
+&lt;li&gt;Datasets in R are apparently just available without explicit calling? Makes me uncomfortable that importing a library appears that it could just populate an arbitrarily large namespace without knowing where/what.&lt;/li&gt;
+&lt;li&gt;R notebook also defaults to a ludicrous number of significant figures in standard data presentation.&lt;/li&gt;
+&lt;li&gt;R can choose to explicitly drop columns from selection if given a negative ordinal number, which is useful.&lt;/li&gt;
+&lt;li&gt;R distinguishes between &lt;code&gt;in&lt;/code&gt;, which is used only in context of &lt;code&gt;for&lt;/code&gt; loops (eg, for &lt;code&gt;(x in seq(10))&lt;/code&gt;), and the infix operator &lt;code&gt;%in%&lt;/code&gt;, which checks if the input is contained in the output. In Python, these two have the same syntax and are distinguished through use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="causal_ml"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-01-11T00:00:00-08:00</published><updated>2025-01-11T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-01-11:/races-in-2025.html</id><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;

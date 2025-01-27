@@ -11,16 +11,16 @@
 
 <meta name="keywords" content="causal, ml, work, causal_ml, " />
 
-<meta property="og:title" content="Causal ML - Intro and Chapter 1 "/>
-<meta property="og:url" content="https://willettk.github.io/causal-ml-intro-and-chapter-1.html" />
-<meta property="og:description" content="I&#39;ve been slowly reading the online book CausalML, whose authors include some of my distant colleagues at Amazon. My goals are to: Read the whole book; to try and maintain momentum, I&#39;m shooting for 1 month timeframe. Basically a chapter every other day. Run through the associated notebooks in Python …" />
+<meta property="og:title" content="Causal ML - Chapter 4 "/>
+<meta property="og:url" content="https://willettk.github.io/causal-ml-chapter-4.html" />
+<meta property="og:description" content="Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models PDF link to Chapter 4 Core concept: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors&#39; viewpoint, this moves from predictive inference (i.e., what happens to the outcome …" />
 <meta property="og:site_name" content="Kyle Willett" />
 <meta property="og:article:author" content="Kyle Willett" />
-<meta property="og:article:published_time" content="2024-06-02T00:00:00-07:00" />
-<meta name="twitter:title" content="Causal ML - Intro and Chapter 1 ">
-<meta name="twitter:description" content="I&#39;ve been slowly reading the online book CausalML, whose authors include some of my distant colleagues at Amazon. My goals are to: Read the whole book; to try and maintain momentum, I&#39;m shooting for 1 month timeframe. Basically a chapter every other day. Run through the associated notebooks in Python …">
+<meta property="og:article:published_time" content="2025-01-26T00:00:00-08:00" />
+<meta name="twitter:title" content="Causal ML - Chapter 4 ">
+<meta name="twitter:description" content="Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models PDF link to Chapter 4 Core concept: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors&#39; viewpoint, this moves from predictive inference (i.e., what happens to the outcome …">
 
-        <title>Causal ML - Intro and Chapter 1  · Kyle Willett
+        <title>Causal ML - Chapter 4  · Kyle Willett
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://willettk.github.io/theme/css/elegant.prod.css" media="screen">
@@ -68,8 +68,8 @@
 <div class="row-fluid">
     <header class="page-header span10 ">
         <h1>
-            <a href="https://willettk.github.io/causal-ml-intro-and-chapter-1.html">
-                Causal ML - Intro and Chapter 1
+            <a href="https://willettk.github.io/causal-ml-chapter-4.html">
+                Causal ML - Chapter 4
             </a>
         </h1>
     </header>
@@ -78,37 +78,28 @@
 <div class="row-fluid">
         <div class="span8 article-content">
             
-            <p>I've been slowly reading the online book <a href="https://causalml-book.org/">CausalML</a>, whose authors include some of my distant colleagues at Amazon. My goals are to:</p>
-<ol>
-<li>Read the whole book; to try and maintain momentum, I'm shooting for 1 month timeframe. Basically a chapter every other day.</li>
-<li>Run through the associated notebooks in Python to work with actual data and implementation.</li>
-<li>Run through at least one code examples in R (rather than my staple of Python), to try to improve my ability to work in another language. </li>
-<li>Take notes on the core concepts, and include areas where I think this could be applied to current and future work.</li>
-</ol>
-<h2>Chapter 1: Predictive Inference with Linear Regression in Moderately High Dimensions</h2>
-<p><a href="https://causalml-book.org/assets/chapters/CausalML_chap_1.pdf">PDF link to Chapter 1</a></p>
+            <h2>Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models</h2>
+<p><a href="https://causalml-book.org/assets/chapters/CausalML_chap_4.pdf">PDF link to Chapter 4</a></p>
+<p><strong>Core concept</strong>: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors' viewpoint, this moves from <em>predictive</em> inference (i.e., what happens to the outcome) to <em>statistical</em> inference (i.e., is there a robust understanding of how the outcome depends on changes to input predictor).</p>
 <h3>Notes</h3>
 <ul>
-<li>It's interesting to think about the implication that the best linear predictor is not found from setting <span class="math">\(E[(Y - \beta^\prime X)] = 0\)</span>, but rather <span class="math">\(E[(Y - \beta^\prime X)X] = 0\)</span>. This comes from the fact that this minimizes the <strong>mean squared error</strong> and not the mean absolute error; not sure if the solution for MAE could be defined since it's non-differentiable.<ul>
-<li>Simple decomposition of the solution: <span class="math">\(Y = \beta^\prime X + \varepsilon\)</span>, where the residual <span class="math">\(\varepsilon\)</span> is orthogonal to the covariate vector <span class="math">\(X\)</span>.</li>
-</ul>
+<li>Chapters 1 and 2 covered estimation of a predictive effect + confidence interval for regression; Chapters 3 and 4 extend the same respective concepts to high-dimensional models.</li>
+<li>This chapter starts with <strong>double lasso</strong>, which <em>is not the same</em> as <strong>double/debiased ML</strong>. Double lasso is fairly simple:<ol>
+<li>Run two lasso regressions: <span class="math">\(Y\)</span> on <span class="math">\(W\)</span> and <span class="math">\(D\)</span> on <span class="math">\(W\)</span> and get residuals <span class="math">\(\tilde{Y}\)</span> and <span class="math">\(\tilde{D}\)</span>. </li>
+<li>Run least-squares regression of <span class="math">\(\tilde{Y}\)</span> on <span class="math">\(\tilde{D}\)</span> to get the estimator <span class="math">\(\hat{\alpha}\)</span>. <span class="math">\(\hat{\alpha}\)</span> is the <strong>partialled-out</strong> effect of D on Y.</li>
+</ol>
 </li>
-<li>Authors refer to the "law of iterated expectations", which is an alternative name for the "<a href="https://en.wikipedia.org/wiki/Law_of_total_expectation">law of total expectation</a>". The special case of samples is clearer to me for a practical purpose, similar to how one works out total probabilities for a simple Bayesian approach: <span class="math">\(E[X] = \sum_i E[X|A_i]P[A_i]\)</span>. Conditional expectation is important since one can use a <strong>linear combination of non-linear transforms</strong> to solve the best prediction problem.</li>
-<li>Moving to finite samples &mdash; i.e., the real world &mdash; just replaces the theoretical expectation values with empircal averages over the existing sample. Going from <span class="math">\(\beta\)</span> to <span class="math">\(\hat{\beta}\)</span>.</li>
-<li>The decomposition is a clean way to think about how the variance is explained. For <span class="math">\(E[Y^2] = E[(\beta^\prime X)^2] + E[\varepsilon^2]\)</span>, the latter term is the population mean squared error. So <span class="math">\(R^2\)</span> (either for the population or the sample) is literally the ratio of explained variation by the best linear predictor to the total variation, and is bounded between 0 and 1. This is a good approximation for <span class="math">\((\textrm{number of }\beta) &lt;&lt; (\textrm{number of samples})\)</span>, or <span class="math">\(p/n\)</span> being small. This can be formally adjusted in a regression, and is automatically provided as a fit parameter if using standard packages like <code>statsmodels</code>.</li>
-<li>I understand the math of partialling out, but link to the earlier material needs a reread. Redo the <a href="https://colab.research.google.com/github/CausalAIBook/MetricsMLNotebooks/blob/main/PM1/python-ols-and-lasso-for-wage-gap-inference.ipynb">wage-gap notebook</a> for a practical example.</li>
-<li>Also, why is <span class="math">\(\beta_1\)</span> not primed but <span class="math">\(\beta_2^\prime\)</span> is?</li>
-<li>Despite having been introduced to them about a dozen times, lasso (and ridge) aren't intuitive concepts to me. Maybe this time through I'll find a better way to make them stick (other than the handwaving statement of "it penalizes certain bits of your regression/helps with overfitting"), which is nowhere near an actual understanding.</li>
+<li>There is a theoretical approach to calculating the standard error for <span class="math">\(\hat{\alpha}\)</span>, which is mildly complex but depends only on estimates of the matrices for the target regressor, the noise, and the number of samples. </li>
+<li>Again, authors argue that cross-validation using standard approaches is not suitable for a small sample due to overfitting. I appreciate the caution and the difference is clear in terms of the results in the notebook, but the examples do not show why the cross-validated result is wrong (other than an appeal to a priori values of the estimator). Relying on the outcome of the black-box package (<code>hdmpy</code>/<a href="https://cran.r-project.org/web/packages/hdm/index.html">HDM in R</a>) doesn't really teach me anything or help me evaluate when to apply cross-validation vs theoretical penalties. I don't like this section as a technique; it has a valuable larger point, but the provided approach is insufficient.</li>
 </ul>
-<h4>Miscellanea on Pelican and HTML stuff</h4>
-<p>As an aside, starting to write these posts resulted in realizing that Markdown as rendered in the browser doesn't natively support mathmode/LaTeX in the same way that Jupyter or IDE Markdown renderers do. the plugin <a href="https://github.com/pelican-plugins/render-math">render-math</a> worked well for Pelican right out of the box (although the package has \&lt;30 stars on Github as of Jun 2024, so I'm a bit worried about long-term support/interest). Just <code>pip install pelican-render-math</code> and add the plugin to <code>pelicanconf.py</code>. It does take the extra second or so for MathJax to render tech, but I'm grateful that this worked quite easily so far.</p>
-<p>I also was reminded that Pelican automatically names the output HTML files according to the title in the metadata; the actual filename is ignored. This slightly annoys me in that it won't be clear on how content maps to output, if I'm trying to compare? Eg, I can have a content file named <code>content/foobar.md</code>. If that file has the following content:</p>
-<div class="highlight"><pre><span></span><code><span class="n">Title</span><span class="o">:</span><span class="w"> </span><span class="n">apples</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">apples</span>
-
-<span class="n">Veggies</span><span class="w"> </span><span class="n">es</span><span class="w"> </span><span class="n">bonus</span><span class="w"> </span><span class="n">vobis</span><span class="o">,</span><span class="w"> </span><span class="n">proinde</span><span class="w"> </span><span class="n">vos</span><span class="w"> </span><span class="n">postulo</span><span class="w"> </span><span class="n">essum</span><span class="w"> </span><span class="n">magis</span><span class="w"> </span><span class="n">kohlrabi</span><span class="w"> </span><span class="n">welsh</span><span class="w"> </span><span class="n">onion</span><span class="w"> </span><span class="n">daikon</span><span class="w"> </span><span class="n">amaranth</span><span class="w"> </span><span class="n">tatsoi</span><span class="w"> </span><span class="n">tomatillo</span><span class="w"> </span><span class="n">melon</span><span class="w"> </span><span class="n">azuki</span><span class="w"> </span><span class="n">bean</span><span class="w"> </span><span class="n">garlic</span><span class="o">.</span>
-</code></pre></div>
-
-<p>This article will be rendered as <code>output/apples_to_apples.html</code>, and would change depending on whatever the title is. It seems confusing in that I don't know what to name my article files now for best practice. </p>
+<h3>Miscellaneous learnings from going through this chapter</h3>
+<ul>
+<li>Installing the required R packages for the notebook on country-level growth convergence took 5 minutes on Colab, as opposed to 23 seconds for Python. Not impressed with speed of R here.</li>
+<li>Datasets in R are apparently just available without explicit calling? Makes me uncomfortable that importing a library appears that it could just populate an arbitrarily large namespace without knowing where/what.</li>
+<li>R notebook also defaults to a ludicrous number of significant figures in standard data presentation.</li>
+<li>R can choose to explicitly drop columns from selection if given a negative ordinal number, which is useful.</li>
+<li>R distinguishes between <code>in</code>, which is used only in context of <code>for</code> loops (eg, for <code>(x in seq(10))</code>), and the infix operator <code>%in%</code>, which checks if the input is contained in the output. In Python, these two have the same syntax and are distinguished through use.</li>
+</ul>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -188,7 +179,7 @@
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2024-06-02T00:00:00-07:00">Jun 2, 2024</time>
+            <time itemprop="dateCreated" datetime="2025-01-26T00:00:00-08:00">Jan 26, 2025</time>
             <h4>Category</h4>
             <a class="category-link" href="https://willettk.github.io/categories.html#causal_ml-ref">causal_ml</a>
             <h4>Tags</h4>
