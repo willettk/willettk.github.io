@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - causal_ml</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/causal_ml.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-01-26T00:00:00-08:00</updated><entry><title>Causal ML - Chapter 4</title><link href="https://willettk.github.io/causal-ml-chapter-4.html" rel="alternate"></link><published>2025-01-26T00:00:00-08:00</published><updated>2025-01-26T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-01-26:/causal-ml-chapter-4.html</id><summary type="html">&lt;h2&gt;Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - causal_ml</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/causal_ml.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-03-08T00:00:00-08:00</updated><entry><title>Causal ML - Chapter 5</title><link href="https://willettk.github.io/causal-ml-chapter-5.html" rel="alternate"></link><published>2025-03-08T00:00:00-08:00</published><updated>2025-03-08T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-03-08:/causal-ml-chapter-5.html</id><summary type="html">&lt;h2&gt;Chapter 5: Causal Inference via Conditional Ignorability&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_5.pdf"&gt;PDF link to Chapter 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: there is a way to identify causal effects even when treatment is not randomly assigned and instead depends on observed covariates. However, if the treatment assigment is independent conditional on some other covariates, than the overall …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Chapter 5: Causal Inference via Conditional Ignorability&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_5.pdf"&gt;PDF link to Chapter 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: there is a way to identify causal effects even when treatment is not randomly assigned and instead depends on observed covariates. However, if the treatment assigment is independent conditional on some other covariates, than the overall causal effect of the treatment can be measured by adjusting for the covariates. This is "conditional ignorability", aka "unconfoundedness".&lt;/p&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In one line, conditional independence for random variables  conditional on covariates can be written as:&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(D ⫫ Y[d] | X\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(D\)&lt;/span&gt; is the treatment status&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(Y[d]\)&lt;/span&gt; is the outcome variable conditional on some value &lt;span class="math"&gt;\(d\)&lt;/span&gt; of the treatment&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(X\)&lt;/span&gt; is a set of covariates&lt;/li&gt;
+&lt;li&gt;This assumption is untestable.&lt;/li&gt;
+&lt;li&gt;Figure 5.4 is really hard to parse; I see the distributions being restored, but nothing in it mathematically convinces me.&lt;/li&gt;
+&lt;li&gt;very basic concept: if considering the chocolate-Nobel Prize correlation (which is wrong also, Switzerland doesn't have the most Nobel Prizes per capita), only compare results conditional on countries above a certain GDP, for example. Within that group, can look for relative differences in chocolate consumption as a function of the output (Nobels awarded).&lt;/li&gt;
+&lt;li&gt;I don't know what "support" means in the context of 5.2, and it's not explained. Frustrating again.&lt;/li&gt;
+&lt;li&gt;As an alternative to directly conditioning on covariates &lt;span class="math"&gt;\(X\)&lt;/span&gt;, it is equivalent to remove the bias by conditioning on the propensity score &lt;span class="math"&gt;\(p[X] = P(D=1|X)\)&lt;/span&gt;. This is potentially simpler since &lt;span class="math"&gt;\(X\)&lt;/span&gt; can be high-dimensional, but &lt;span class="math"&gt;\(p\)&lt;/span&gt; is a single vector and can work with linear regression.&lt;/li&gt;
+&lt;li&gt;Need a good example for difference between ATE and ATT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Miscellaneous learnings from going through this chapter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;this version of the chapter has errors in references that weren't rendered in the LaTeX version. There is a GitHub repo (https://github.com/CausalAIBook)&lt;/li&gt;
+&lt;li&gt;oddly, there is no basic LaTeX symbol for conditional independence. Need to copy in the Unicode directly and hope that XeTeX or something similar will render it. &lt;span class="math"&gt;\(⫫\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;no notebooks or code provided for this section&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="causal_ml"></category><category term="causal"></category><category term="ml"></category><category term="work"></category></entry><entry><title>Causal ML - Chapter 4</title><link href="https://willettk.github.io/causal-ml-chapter-4.html" rel="alternate"></link><published>2025-01-26T00:00:00-08:00</published><updated>2025-01-26T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-01-26:/causal-ml-chapter-4.html</id><summary type="html">&lt;h2&gt;Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_4.pdf"&gt;PDF link to Chapter 4&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: builds on Chapter 3 to create statistically robust confidence intervals for tools including lasso. In authors' viewpoint, this moves from &lt;em&gt;predictive&lt;/em&gt; inference (i.e., what happens to the outcome …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Chapter 4: Statistical Inference on Predictive and Causal Effects in High-Dimensional Linear Regression Models&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_4.pdf"&gt;PDF link to Chapter 4&lt;/a&gt;&lt;/p&gt;
