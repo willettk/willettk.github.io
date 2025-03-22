@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-03-15
+date: 2025-03-22
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -33,7 +33,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/spring-run-for-fun-bridle-trails/">Spring Run for Fun</a> </td>
             <td> Kirkland, WA </td>
             <td><center> 13.1 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/13957092678" target="_blank">1:40:31</a></td>
         </tr>
         <tr>
             <td><center> 4/12/25 </td>

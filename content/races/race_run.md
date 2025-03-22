@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-01-11
+date: 2025-03-22
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2494,6 +2494,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
             <td>8</td><td>38</td>
             <td>6</td><td>25</td><td>M</td>
+        </tr>
+        <tr>
+            <td><center> 3/22/2025 </td>
+            <td> <a href="https://nwtrailruns.com/events/spring-run-for-fun-bridle-trails/">Spring Run for Fun</a> </td>
+            <td> Kirkland, WA </td>
+            <td> 21.1 </td>
+            <td> 13.1 </td>
+            <td> 7:40 </td>
+            <td><center><a href="https://www.strava.com/activities/13957092678" target="_blank">1:40:31</a></td>
+            <td>2</td><td>49</td>
+            <td>1</td><td>7</td><td>M 40-49</td>
         </tr>
 
     </tbody>
