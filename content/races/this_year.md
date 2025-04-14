@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-03-22
+date: 2025-04-12
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -40,7 +40,7 @@ tags: running
             <td> <a href="https://www.daybreakracing.com/gorge-waterfalls-100k">Gorge Waterfalls</a> </td>
             <td> Cascade Locks, OR </td>
             <td><center> 100 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
         </tr>
 
     </table>
