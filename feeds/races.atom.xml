@@ -39,18 +39,8 @@
             &lt;td&gt;&lt;center&gt; 100 km&lt;/td&gt;
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/14161247070" target="_blank"&gt;16:10:05&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
-
-    &lt;/table&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr/&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="../running-races.html"&gt;All my races …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 7/5/25 …&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</summary><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;
@@ -89,6 +79,13 @@
             &lt;td&gt; Cascade Locks, OR &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 100 km&lt;/td&gt;
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/14161247070" target="_blank"&gt;16:10:05&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 7/5/25 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.aftontrailrun.com/25km-info/"&gt;Afton Trail Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Afton, MN &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt; 25 km&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;/td&gt;
         &lt;/tr&gt;
 
     &lt;/table&gt;
