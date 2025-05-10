@@ -42,6 +42,13 @@ tags: running
             <td><center> 100 km</td>
             <td><center><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
         </tr>
+        <tr>
+            <td><center> 7/5/25 </td>
+            <td> <a href="https://www.aftontrailrun.com/25km-info/">Afton Trail Run</a> </td>
+            <td> Afton, MN </td>
+            <td><center> 25 km</td>
+            <td><center></td>
+        </tr>
 
     </table>
 
