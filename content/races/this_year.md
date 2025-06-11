@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-04-12
+date: 2025-06-10
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -41,6 +41,13 @@ tags: running
             <td> Cascade Locks, OR </td>
             <td><center> 100 km</td>
             <td><center><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
+        </tr>
+        <tr>
+            <td><center> 6/14/25 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td><center> 14.5 mi</td>
+            <td><center></td>
         </tr>
         <tr>
             <td><center> 7/5/25 </td>
