@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-06-10
+date: 2025-06-14
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -47,7 +47,7 @@ tags: running
             <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
             <td> Newcastle, WA </td>
             <td><center> 14.5 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/14799602660" target="_blank">2:28:57</a</td>
         </tr>
         <tr>
             <td><center> 7/5/25 </td>
