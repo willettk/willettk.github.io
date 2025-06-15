@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-06-10T00:00:00-07:00</updated><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-06-10T00:00:00-07:00</published><updated>2025-06-10T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-06-10:/races-in-2025.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-06-14T00:00:00-07:00</updated><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-06-14T00:00:00-07:00</published><updated>2025-06-14T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-06-14:/races-in-2025.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
 
     &lt;title&gt;Race list&lt;/title&gt;
@@ -85,7 +85,7 @@
             &lt;td&gt; &lt;a href="https://cougar.seattlerunningclub.org/"&gt;Cougar Mountain Trail Run&lt;/a&gt; &lt;/td&gt;
             &lt;td&gt; Newcastle, WA &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 14.5 mi&lt;/td&gt;
-            &lt;td&gt;&lt;center&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/14799602660" target="_blank"&gt;2:28:57&lt;/a&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 7/5/25 &lt;/td&gt;
@@ -2662,7 +2662,6 @@
             &lt;td&gt;2&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;
             &lt;td&gt;1&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
-
         &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 4/12/2025 &lt;/td&gt;
             &lt;td&gt; &lt;a href="https://www.daybreakracing.com/gorge-waterfalls-100k"&gt;Gorge Waterfalls&lt;/a&gt; &lt;/td&gt;
@@ -2673,6 +2672,17 @@
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/14161247070" target="_blank"&gt;16:10:05&lt;/a&gt;&lt;/td&gt;
             &lt;td&gt;237&lt;/td&gt;&lt;td&gt;310&lt;/td&gt;
             &lt;td&gt;49&lt;/td&gt;&lt;td&gt;67&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 6/14/2025 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://cougar.seattlerunningclub.org/"&gt;Cougar Mountain Trail Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Newcastle, WA &lt;/td&gt;
+            &lt;td&gt; 23.3 &lt;/td&gt;
+            &lt;td&gt; 14.5 &lt;/td&gt;
+            &lt;td&gt; 10:16 &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/14799602660" target="_blank"&gt;2:28:57&lt;/a&lt;/td&gt;
+            &lt;td&gt;13&lt;/td&gt;&lt;td&gt;73&lt;/td&gt;
+            &lt;td&gt;6&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
 
     &lt;/tbody&gt;
