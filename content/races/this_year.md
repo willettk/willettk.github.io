@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-06-14
+date: 2025-07-01
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -54,6 +54,13 @@ tags: running
             <td> <a href="https://www.aftontrailrun.com/25km-info/">Afton Trail Run</a> </td>
             <td> Afton, MN </td>
             <td><center> 25 km</td>
+            <td><center></td>
+        </tr>
+        <tr>
+            <td><center> 10/11/25 </td>
+            <td> <a href="https://www.evergreentrailruns.com/madmeadows/">Mad Meadows</a> </td>
+            <td> Leavenworth, WA </td>
+            <td><center> 50 km</td>
             <td><center></td>
         </tr>
 
