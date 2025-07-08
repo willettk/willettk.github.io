@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-07-01
+date: 2025-07-07
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -54,7 +54,7 @@ tags: running
             <td> <a href="https://www.aftontrailrun.com/25km-info/">Afton Trail Run</a> </td>
             <td> Afton, MN </td>
             <td><center> 25 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
         </tr>
         <tr>
             <td><center> 10/11/25 </td>

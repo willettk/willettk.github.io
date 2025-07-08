@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-06-14
+date: 2025-07-07
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2527,6 +2527,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/14799602660" target="_blank">2:28:57</a</td>
             <td>13</td><td>73</td>
             <td>6</td><td>14</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td> 7/5/2025 </td>
+            <td> <a href="http://www.aftontrailrun.com"> Afton Trail Run </a> </td>
+            <td> Afton, MN </td>
+            <td> 25 </td>
+            <td> 15.5 </td>
+            <td> 9:11 </td>
+            <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
+            <td> 29</td><td> 472</td>
+            <td> 10</td><td> 88</td><td> M 40+ </td>
         </tr>
 
     </tbody>
