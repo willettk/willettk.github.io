@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-07-07
+date: 2025-07-13
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -55,6 +55,13 @@ tags: running
             <td> Afton, MN </td>
             <td><center> 25 km</td>
             <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
+        </tr>
+        <tr>
+            <td><center> 9/27/25 </td>
+            <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
+            <td> Olga, WA </td>
+            <td><center> 71.6 mi relay</td>
+            <td><center></td>
         </tr>
         <tr>
             <td><center> 10/11/25 </td>
