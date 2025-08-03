@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-07-13
+date: 2025-08-02
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -55,6 +55,13 @@ tags: running
             <td> Afton, MN </td>
             <td><center> 25 km</td>
             <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
+        </tr>
+        <tr>
+            <td><center> 8/9/25 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td><center> 5 km</td>
+            <td><center></td>
         </tr>
         <tr>
             <td><center> 9/27/25 </td>
