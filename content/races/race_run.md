@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-07-07
+date: 2025-08-09
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2538,6 +2538,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
             <td> 29</td><td> 472</td>
             <td> 10</td><td> 88</td><td> M 40+ </td>
+        </tr>
+        <tr>
+            <td><center> 8/9/2025 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td> 5 </td>
+            <td> 3.1 </td>
+            <td> 7:45 </td>
+            <td><center><a href="https://www.strava.com/activities/15401163908" target="_blank">24:06</a</td>
+            <td>7</td><td>111</td>
+            <td>2</td><td>8</td><td>M 40-49</td>
         </tr>
 
     </tbody>
