@@ -1,11 +1,15 @@
 Title: Relay races
-date: 2024-03-16
+date: 2025-09-28
 tags: relay, running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-    <script type="text/javascript" src="extra/tablesort.js"></script>
-    <link href="extra/racelist.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="extra/tablesort/src/tablesort.js"></script>
+    <script src='extra/tablesort/src/sorts/tablesort.number.js'></script>
+    <script src='extra/tablesort/src/sorts/tablesort.date.js'></script>
+
+    <link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" />
+    <link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" />
     <title>Race list</title>
     <meta name="description" content="race list results">
     </head>
@@ -62,9 +66,10 @@ tags: relay, running
             <td> 106.9 </td>
             <td> 66.4 </td>
             <td> 8:06 </td>
-            <td><a href="https://www.strava.com/activities/2800977818" target="_blank">8:57</a><a href="https://www.strava.com/activities/2804034920" target="_blank">:44</a></td>
+            <td>8:57:44 <a href="https://www.strava.com/activities/2800977818" target="_blank"><br>Leg 2</a>, <a href="https://www.strava.com/activities/2804034920" target="_blank">Leg 10</a></td>
+            <td> 2</td><td>50</td>
             <td> </td><td></td>
-            <td> 2</td><td>50</td><td>relay</td>
+            <td></td>
         </tr>
 
         <tr>
@@ -86,9 +91,10 @@ tags: relay, running
             <td> 115.2 </td>
             <td> 71.6 </td>
             <td> 9:04 </td>
-            <td> <a href="https://www.strava.com/activities/7861331530" target="_blank">10:34</a><a href="https://www.strava.com/activities/7861331520" target="_blank">:47</a> </td>
+            <td> 10:34:47 <a href="https://www.strava.com/activities/7861331530" target="_blank"><br>Legs 2 & 3</a>, <a href="https://www.strava.com/activities/7861331520" target="_blank">Leg 7</a> </td>
+            <td> 2</td><td>46</td>
             <td> </td><td></td>
-            <td> 2</td><td>46</td><td>relay</td>
+            <td></td>
         </tr>
 
         <tr>
@@ -98,9 +104,22 @@ tags: relay, running
             <td> 126.5 </td>
             <td> 78.6 </td>
             <td> 7:22 </td>
-            <td><a href="https://www.strava.com/activities/10974204941/" target="_blank">9</a>:<a href="https://www.strava.com/activities/10974920734/" target="_blank">38</a>:<a href="https://www.strava.com/activities/10975574539/" target="_blank">27</a></td>
+            <td>9:38:27 <a href="https://www.strava.com/activities/10974204941/" target="_blank"><br>Leg 4</a>, <a href="https://www.strava.com/activities/10974920734/" target="_blank">Leg 8</a>, <a href="https://www.strava.com/activities/10975574539/" target="_blank">Leg 15</a></td>
             <td> </td><td></td>
             <td> 5</td><td>55</td><td>4-5 person relay</td>
+        </tr>
+
+        <tr>
+            <td> 9/27/25 </td>
+            <td> <a href="http://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
+            <td> Olga, WA</td>
+            <td> 115.2 </td>
+            <td> 71.6 </td>
+            <td> 10:02 </td>
+            <td>11:58:39 <a href="https://www.strava.com/activities/15954726204" target="_blank"><br>Leg 1</a>, <a href="https://www.strava.com/activities/15956199825" target="_blank">Leg 4</a>, <a href="https://www.strava.com/activities/15957341610" target="_blank">Leg 7</a>, <a href="https://www.strava.com/activities/15967042053" target="_blank">Leg 9</a></td>
+            <td> 6</td><td>46</td>
+            <td> </td><td></td>
+            <td></td>
         </tr>
 
     </tbody>

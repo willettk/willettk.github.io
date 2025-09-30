@@ -1,10 +1,15 @@
 Title: Races in 2025
-date: 2025-08-09
+date: 2025-09-28
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
+    <script type="text/javascript" src="extra/tablesort/src/tablesort.js"></script>
+    <script src='extra/tablesort/src/sorts/tablesort.number.js'></script>
+    <script src='extra/tablesort/src/sorts/tablesort.date.js'></script>
 
+    <link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" />
+    <link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" />
     <title>Race list</title>
     <meta name="description" content="race list results">
     </head>
@@ -12,15 +17,17 @@ tags: running
 
 <div class="post">
     <div class="entry">
-    <table cellpadding=2 border=1 bgcolor=#FFFFFF>
+    <table cellspacing=1 id="relaytable" width=1200 class="sortable-onload-0 rowstyle-alt">
 
-        <tr>
-            <td><b><center> Date </td>
-            <td><b><center> Race </td>
-            <td><b> Location </td>
-            <td><b><center> Distance </td>
-            <td><b><center> Finish </td>
-        </tr>
+        <thead>
+            <tr>
+                <th class="sortable-date"> <b>Date </th>
+                <th class="sortable-text"> <b>Race </th>
+                <th class="sortable-text"> <b>Location </th>
+                <th class="sortable-numeric"> <b>Distance </th>
+                <th class="sortable-numeric"> <b>Finish </th>
+            </tr>
+        </thead>
         <tr>
             <td><center> 1/11/25 </td>
             <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
@@ -68,7 +75,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
             <td><center> 71.6 mi relay</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/15954726204">11:58:39</a></td>
         </tr>
         <tr>
             <td><center> 10/11/25 </td>
