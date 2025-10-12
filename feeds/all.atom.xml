@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-09-28T00:00:00-07:00</updated><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-09-28T00:00:00-07:00</published><updated>2025-09-28T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-09-28:/races-in-2025.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2025-10-12T00:00:00-07:00</updated><entry><title>Races in 2025</title><link href="https://willettk.github.io/races-in-2025.html" rel="alternate"></link><published>2025-10-12T00:00:00-07:00</published><updated>2025-10-12T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-10-12:/races-in-2025.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -120,14 +120,14 @@
             &lt;td&gt; &lt;a href="https://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
             &lt;td&gt; Olga, WA &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 71.6 mi relay&lt;/td&gt;
-            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/15954726204"&gt;11:58:39&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/15954726204" target="_blank"&gt;11:58:39&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 10/11/25 &lt;/td&gt;
             &lt;td&gt; &lt;a href="https://www.evergreentrailruns.com/madmeadows/"&gt;Mad Meadows&lt;/a&gt; &lt;/td&gt;
             &lt;td&gt; Leavenworth, WA &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 50 km&lt;/td&gt;
-            &lt;td&gt;&lt;center&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/16110699508" target="_blank"&gt;8:03:05&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
 
     &lt;/table&gt;
@@ -141,179 +141,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../running-races.html"&gt;All my races&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Relay races</title><link href="https://willettk.github.io/relay-races.html" rel="alternate"></link><published>2025-09-28T00:00:00-07:00</published><updated>2025-09-28T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-09-28:/relay-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
-    &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
-    &lt;script src='extra/tablesort/src/sorts/tablesort.date.js'&gt;&lt;/script&gt;
-
-    &lt;link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" /&gt;
-    &lt;link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" /&gt;
-    &lt;title&gt;Race list&lt;/title&gt;
-    &lt;meta name="description" content="race list results"&gt;
-    &lt;/head&gt;
-&lt;body&gt;
-
-&lt;h4 align=center&gt; Relay races &lt;/h4&gt;
-&lt;table cellspacing=1 id="relaytable" width=1200 class="sortable-onload-0 rowstyle-alt"&gt;
-        &lt;thead&gt;
-            &lt;tr&gt;&lt;b&gt;
-                &lt;th class="sortable-date"&gt; &lt;b&gt;Date &lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Race &lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Location  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [km] &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [mi] &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Pace [min/mile]&lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Finish &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Overall)  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Division)  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt; Division &lt;/th&gt;
-            &lt;/b&gt;&lt;/tr&gt;
-        &lt;/thead&gt;
-    &lt;tbody&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 8/12/15 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="http://www.raceberryjam.com/comorelaysform.html"&gt;Como Park Relays&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; St. Paul, MN &lt;/td&gt;
-            &lt;td&gt; 9.7 &lt;/td&gt;
-            &lt;td&gt; 6 &lt;/td&gt;
-            &lt;td&gt; 6:05 &lt;/td&gt;
-            &lt;td&gt; 36:30&lt;/td&gt;
-            &lt;td&gt; 38&lt;/td&gt;&lt;td&gt; 95&lt;/td&gt;
-            &lt;td&gt; 30&lt;/td&gt;&lt;td&gt; 47&lt;/td&gt;&lt;td&gt; M pairs &lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 1/12/19 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival …&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</summary><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
-    &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
-    &lt;script src='extra/tablesort/src/sorts/tablesort.date.js'&gt;&lt;/script&gt;
-
-    &lt;link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" /&gt;
-    &lt;link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" /&gt;
-    &lt;title&gt;Race list&lt;/title&gt;
-    &lt;meta name="description" content="race list results"&gt;
-    &lt;/head&gt;
-&lt;body&gt;
-
-&lt;h4 align=center&gt; Relay races &lt;/h4&gt;
-&lt;table cellspacing=1 id="relaytable" width=1200 class="sortable-onload-0 rowstyle-alt"&gt;
-        &lt;thead&gt;
-            &lt;tr&gt;&lt;b&gt;
-                &lt;th class="sortable-date"&gt; &lt;b&gt;Date &lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Race &lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Location  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [km] &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [mi] &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Pace [min/mile]&lt;/th&gt;
-                &lt;th class="sortable-text"&gt; &lt;b&gt;Finish &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Overall)  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Division)  &lt;/th&gt;
-                &lt;th class="sortable-numeric"&gt; &lt;b&gt; Division &lt;/th&gt;
-            &lt;/b&gt;&lt;/tr&gt;
-        &lt;/thead&gt;
-    &lt;tbody&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 8/12/15 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="http://www.raceberryjam.com/comorelaysform.html"&gt;Como Park Relays&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; St. Paul, MN &lt;/td&gt;
-            &lt;td&gt; 9.7 &lt;/td&gt;
-            &lt;td&gt; 6 &lt;/td&gt;
-            &lt;td&gt; 6:05 &lt;/td&gt;
-            &lt;td&gt; 36:30&lt;/td&gt;
-            &lt;td&gt; 38&lt;/td&gt;&lt;td&gt; 95&lt;/td&gt;
-            &lt;td&gt; 30&lt;/td&gt;&lt;td&gt; 47&lt;/td&gt;&lt;td&gt; M pairs &lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 1/12/19 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Kirkland, WA&lt;/td&gt;
-            &lt;td&gt; 50 &lt;/td&gt;
-            &lt;td&gt; 31.1 &lt;/td&gt;
-            &lt;td&gt; 7:10 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://www.strava.com/activities/2074671736" target="_blank"&gt;3:43:27&lt;/a&gt;&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;pairs&lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 10/19/19 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Olga, WA&lt;/td&gt;
-            &lt;td&gt; 106.9 &lt;/td&gt;
-            &lt;td&gt; 66.4 &lt;/td&gt;
-            &lt;td&gt; 8:06 &lt;/td&gt;
-            &lt;td&gt;8:57:44 &lt;a href="https://www.strava.com/activities/2800977818" target="_blank"&gt;&lt;br&gt;Leg 2&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/2804034920" target="_blank"&gt;Leg 10&lt;/a&gt;&lt;/td&gt;
-            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 1/8/22 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Kirkland, WA&lt;/td&gt;
-            &lt;td&gt; 50 &lt;/td&gt;
-            &lt;td&gt; 31.1 &lt;/td&gt;
-            &lt;td&gt; 7:28 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://www.strava.com/activities/6494064611" target="_blank"&gt;3:53:11&lt;/a&gt;&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;pairs&lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 9/24/22 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Olga, WA&lt;/td&gt;
-            &lt;td&gt; 115.2 &lt;/td&gt;
-            &lt;td&gt; 71.6 &lt;/td&gt;
-            &lt;td&gt; 9:04 &lt;/td&gt;
-            &lt;td&gt; 10:34:47 &lt;a href="https://www.strava.com/activities/7861331530" target="_blank"&gt;&lt;br&gt;Legs 2 &amp; 3&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/7861331520" target="_blank"&gt;Leg 7&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 3/16/24 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="https://www.frostymossrelay.com/"&gt;Frosty Moss&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Port Angeles, WA &lt;/td&gt;
-            &lt;td&gt; 126.5 &lt;/td&gt;
-            &lt;td&gt; 78.6 &lt;/td&gt;
-            &lt;td&gt; 7:22 &lt;/td&gt;
-            &lt;td&gt;9:38:27 &lt;a href="https://www.strava.com/activities/10974204941/" target="_blank"&gt;&lt;br&gt;Leg 4&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/10974920734/" target="_blank"&gt;Leg 8&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/10975574539/" target="_blank"&gt;Leg 15&lt;/a&gt;&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt; 5&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;td&gt;4-5 person relay&lt;/td&gt;
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt; 9/27/25 &lt;/td&gt;
-            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
-            &lt;td&gt; Olga, WA&lt;/td&gt;
-            &lt;td&gt; 115.2 &lt;/td&gt;
-            &lt;td&gt; 71.6 &lt;/td&gt;
-            &lt;td&gt; 10:02 &lt;/td&gt;
-            &lt;td&gt;11:58:39 &lt;a href="https://www.strava.com/activities/15954726204" target="_blank"&gt;&lt;br&gt;Leg 1&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15956199825" target="_blank"&gt;Leg 4&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15957341610" target="_blank"&gt;Leg 7&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15967042053" target="_blank"&gt;Leg 9&lt;/a&gt;&lt;/td&gt;
-            &lt;td&gt; 6&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;
-            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-    &lt;/tbody&gt;
-&lt;/table&gt;
-
-
-&lt;/body&gt;
-&lt;/html&gt;</content><category term="races"></category><category term="relay"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2025-08-09T00:00:00-07:00</published><updated>2025-08-09T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-08-09:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2025-10-12T00:00:00-07:00</published><updated>2025-10-12T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-10-12:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -2913,6 +2741,17 @@
             &lt;td&gt;7&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;
             &lt;td&gt;2&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 10/11/2025 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.evergreentrailruns.com/madmeadows/"&gt;Mad Meadows&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Leavenworth, WA &lt;/td&gt;
+            &lt;td&gt; 50 &lt;/td&gt;
+            &lt;td&gt; 31.1 &lt;/td&gt;
+            &lt;td&gt; 15:33 &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/16110699508" target="_blank"&gt;8:03:05&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;33&lt;/td&gt;&lt;td&gt;137&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;M 40-44&lt;/td&gt;
+        &lt;/tr&gt;
 
     &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2922,7 +2761,179 @@
 &lt;/script&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Causal ML - Chapter 5</title><link href="https://willettk.github.io/causal-ml-chapter-5.html" rel="alternate"></link><published>2025-03-08T00:00:00-08:00</published><updated>2025-03-08T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-03-08:/causal-ml-chapter-5.html</id><summary type="html">&lt;h2&gt;Chapter 5: Causal Inference via Conditional Ignorability&lt;/h2&gt;
+&lt;/html&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Relay races</title><link href="https://willettk.github.io/relay-races.html" rel="alternate"></link><published>2025-09-28T00:00:00-07:00</published><updated>2025-09-28T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-09-28:/relay-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+    &lt;head&gt;
+    &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
+    &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
+    &lt;script src='extra/tablesort/src/sorts/tablesort.date.js'&gt;&lt;/script&gt;
+
+    &lt;link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;title&gt;Race list&lt;/title&gt;
+    &lt;meta name="description" content="race list results"&gt;
+    &lt;/head&gt;
+&lt;body&gt;
+
+&lt;h4 align=center&gt; Relay races &lt;/h4&gt;
+&lt;table cellspacing=1 id="relaytable" width=1200 class="sortable-onload-0 rowstyle-alt"&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;&lt;b&gt;
+                &lt;th class="sortable-date"&gt; &lt;b&gt;Date &lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Race &lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Location  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [km] &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [mi] &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Pace [min/mile]&lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Finish &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Overall)  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Division)  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt; Division &lt;/th&gt;
+            &lt;/b&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+    &lt;tbody&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 8/12/15 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="http://www.raceberryjam.com/comorelaysform.html"&gt;Como Park Relays&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; St. Paul, MN &lt;/td&gt;
+            &lt;td&gt; 9.7 &lt;/td&gt;
+            &lt;td&gt; 6 &lt;/td&gt;
+            &lt;td&gt; 6:05 &lt;/td&gt;
+            &lt;td&gt; 36:30&lt;/td&gt;
+            &lt;td&gt; 38&lt;/td&gt;&lt;td&gt; 95&lt;/td&gt;
+            &lt;td&gt; 30&lt;/td&gt;&lt;td&gt; 47&lt;/td&gt;&lt;td&gt; M pairs &lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 1/12/19 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival …&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</summary><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+    &lt;head&gt;
+    &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
+    &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
+    &lt;script src='extra/tablesort/src/sorts/tablesort.date.js'&gt;&lt;/script&gt;
+
+    &lt;link href="extra/tablesort/demo/style.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="extra/tablesort/tablesort.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;title&gt;Race list&lt;/title&gt;
+    &lt;meta name="description" content="race list results"&gt;
+    &lt;/head&gt;
+&lt;body&gt;
+
+&lt;h4 align=center&gt; Relay races &lt;/h4&gt;
+&lt;table cellspacing=1 id="relaytable" width=1200 class="sortable-onload-0 rowstyle-alt"&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;&lt;b&gt;
+                &lt;th class="sortable-date"&gt; &lt;b&gt;Date &lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Race &lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Location  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [km] &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Distance [mi] &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Pace [min/mile]&lt;/th&gt;
+                &lt;th class="sortable-text"&gt; &lt;b&gt;Finish &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Overall)  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;Place  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt;(Division)  &lt;/th&gt;
+                &lt;th class="sortable-numeric"&gt; &lt;b&gt; Division &lt;/th&gt;
+            &lt;/b&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+    &lt;tbody&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 8/12/15 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="http://www.raceberryjam.com/comorelaysform.html"&gt;Como Park Relays&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; St. Paul, MN &lt;/td&gt;
+            &lt;td&gt; 9.7 &lt;/td&gt;
+            &lt;td&gt; 6 &lt;/td&gt;
+            &lt;td&gt; 6:05 &lt;/td&gt;
+            &lt;td&gt; 36:30&lt;/td&gt;
+            &lt;td&gt; 38&lt;/td&gt;&lt;td&gt; 95&lt;/td&gt;
+            &lt;td&gt; 30&lt;/td&gt;&lt;td&gt; 47&lt;/td&gt;&lt;td&gt; M pairs &lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 1/12/19 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Kirkland, WA&lt;/td&gt;
+            &lt;td&gt; 50 &lt;/td&gt;
+            &lt;td&gt; 31.1 &lt;/td&gt;
+            &lt;td&gt; 7:10 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.strava.com/activities/2074671736" target="_blank"&gt;3:43:27&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;pairs&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 10/19/19 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Olga, WA&lt;/td&gt;
+            &lt;td&gt; 106.9 &lt;/td&gt;
+            &lt;td&gt; 66.4 &lt;/td&gt;
+            &lt;td&gt; 8:06 &lt;/td&gt;
+            &lt;td&gt;8:57:44 &lt;a href="https://www.strava.com/activities/2800977818" target="_blank"&gt;&lt;br&gt;Leg 2&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/2804034920" target="_blank"&gt;Leg 10&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 1/8/22 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://bridle.seattlerunningclub.org/"&gt;Bridle Trails Winter Running Festival&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Kirkland, WA&lt;/td&gt;
+            &lt;td&gt; 50 &lt;/td&gt;
+            &lt;td&gt; 31.1 &lt;/td&gt;
+            &lt;td&gt; 7:28 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.strava.com/activities/6494064611" target="_blank"&gt;3:53:11&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;pairs&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 9/24/22 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Olga, WA&lt;/td&gt;
+            &lt;td&gt; 115.2 &lt;/td&gt;
+            &lt;td&gt; 71.6 &lt;/td&gt;
+            &lt;td&gt; 9:04 &lt;/td&gt;
+            &lt;td&gt; 10:34:47 &lt;a href="https://www.strava.com/activities/7861331530" target="_blank"&gt;&lt;br&gt;Legs 2 &amp; 3&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/7861331520" target="_blank"&gt;Leg 7&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; 2&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 3/16/24 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://www.frostymossrelay.com/"&gt;Frosty Moss&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Port Angeles, WA &lt;/td&gt;
+            &lt;td&gt; 126.5 &lt;/td&gt;
+            &lt;td&gt; 78.6 &lt;/td&gt;
+            &lt;td&gt; 7:22 &lt;/td&gt;
+            &lt;td&gt;9:38:27 &lt;a href="https://www.strava.com/activities/10974204941/" target="_blank"&gt;&lt;br&gt;Leg 4&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/10974920734/" target="_blank"&gt;Leg 8&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/10975574539/" target="_blank"&gt;Leg 15&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt; 5&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;td&gt;4-5 person relay&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt; 9/27/25 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="http://nwtrailruns.com/events/moran-constitutional-relay/"&gt;Moran Constitutional Relay&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Olga, WA&lt;/td&gt;
+            &lt;td&gt; 115.2 &lt;/td&gt;
+            &lt;td&gt; 71.6 &lt;/td&gt;
+            &lt;td&gt; 10:02 &lt;/td&gt;
+            &lt;td&gt;11:58:39 &lt;a href="https://www.strava.com/activities/15954726204" target="_blank"&gt;&lt;br&gt;Leg 1&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15956199825" target="_blank"&gt;Leg 4&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15957341610" target="_blank"&gt;Leg 7&lt;/a&gt;, &lt;a href="https://www.strava.com/activities/15967042053" target="_blank"&gt;Leg 9&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt; 6&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;
+            &lt;td&gt; &lt;/td&gt;&lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</content><category term="races"></category><category term="relay"></category><category term="running"></category></entry><entry><title>Causal ML - Chapter 5</title><link href="https://willettk.github.io/causal-ml-chapter-5.html" rel="alternate"></link><published>2025-03-08T00:00:00-08:00</published><updated>2025-03-08T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2025-03-08:/causal-ml-chapter-5.html</id><summary type="html">&lt;h2&gt;Chapter 5: Causal Inference via Conditional Ignorability&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_5.pdf"&gt;PDF link to Chapter 5&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core concept&lt;/strong&gt;: there is a way to identify causal effects even when treatment is not randomly assigned and instead depends on observed covariates. However, if the treatment assigment is independent conditional on some other covariates, than the overall …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Chapter 5: Causal Inference via Conditional Ignorability&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://causalml-book.org/assets/chapters/CausalML_chap_5.pdf"&gt;PDF link to Chapter 5&lt;/a&gt;&lt;/p&gt;
