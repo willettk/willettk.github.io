@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-09-28
+date: 2025-10-12
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -75,14 +75,14 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
             <td><center> 71.6 mi relay</td>
-            <td><center><a href="https://www.strava.com/activities/15954726204">11:58:39</a></td>
+            <td><center><a href="https://www.strava.com/activities/15954726204" target="_blank">11:58:39</a></td>
         </tr>
         <tr>
             <td><center> 10/11/25 </td>
             <td> <a href="https://www.evergreentrailruns.com/madmeadows/">Mad Meadows</a> </td>
             <td> Leavenworth, WA </td>
             <td><center> 50 km</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
         </tr>
 
     </table>

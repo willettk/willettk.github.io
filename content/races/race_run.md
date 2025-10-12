@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-08-09
+date: 2025-10-12
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2549,6 +2549,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/15401163908" target="_blank">24:06</a</td>
             <td>7</td><td>111</td>
             <td>2</td><td>8</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 10/11/2025 </td>
+            <td> <a href="https://www.evergreentrailruns.com/madmeadows/">Mad Meadows</a> </td>
+            <td> Leavenworth, WA </td>
+            <td> 50 </td>
+            <td> 31.1 </td>
+            <td> 15:33 </td>
+            <td><center><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
+            <td>33</td><td>137</td>
+            <td>4</td><td>15</td><td>M 40-44</td>
         </tr>
 
     </tbody>
