@@ -84,6 +84,13 @@ tags: running
             <td><center> 50 km</td>
             <td><center><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
         </tr>
+        <tr>
+            <td><center> 11/8/25 </td>
+            <td> <a href="https://www.evergreentrailruns.com/grand-ridge-2/">Grand Ridge</a> </td>
+            <td> Issaquah, WA </td>
+            <td><center> 13.1 mi</td>
+            <td><center><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
+        </tr>
 
     </table>
 
