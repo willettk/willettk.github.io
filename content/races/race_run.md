@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-11-10
+date: 2025-12-01
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2571,6 +2571,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
             <td>18</td><td>189</td>
             <td>3</td><td>14</td><td>M 40-44</td>
+        </tr>
+        <tr>
+            <td><center> 11/27/2025 </td>
+            <td> <a href="https://bishopsevents.com/event/2025-the-capital-turkey-trot-5k-10k/">The Capital Turkey Trot</a> </td>
+            <td> Washington, DC </td>
+            <td> 5 </td>
+            <td> 3.1 </td>
+            <td> 6:19 </td>
+            <td><center><a href="https://www.strava.com/activities/16581904196" target="_blank">19:38</a></td>
+            <td>3</td><td>257</td>
+            <td>1</td><td>14</td><td>M 40-49</td>
         </tr>
 
     </tbody>

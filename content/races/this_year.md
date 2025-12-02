@@ -1,5 +1,5 @@
 Title: Races in 2025
-date: 2025-11-10
+date: 2025-12-01
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -90,6 +90,13 @@ tags: running
             <td> Issaquah, WA </td>
             <td><center> 13.1 mi</td>
             <td><center><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
+        </tr>
+        <tr>
+            <td><center> 11/27/25 </td>
+            <td> <a href="https://bishopsevents.com/event/2025-the-capital-turkey-trot-5k-10k/">The Capital Turkey Trot</a> </td>
+            <td> Washington, DC </td>
+            <td><center> 5 km</td>
+            <td><center><a href="https://www.strava.com/activities/16581904196" target="_blank">19:38</a></td>
         </tr>
 
     </table>
