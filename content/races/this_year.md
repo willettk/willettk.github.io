@@ -1,5 +1,5 @@
-Title: Races in 2025
-date: 2025-12-01
+Title: Races in 2026
+date: 2026-01-05
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -29,74 +29,11 @@ tags: running
             </tr>
         </thead>
         <tr>
-            <td><center> 1/11/25 </td>
+            <td><center> 1/10/26 </td>
             <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
             <td> Kirkland, WA </td>
-            <td><center> 50 km</td>
-            <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
-        </tr>
-        <tr>
-            <td><center> 3/22/25 </td>
-            <td> <a href="https://nwtrailruns.com/events/spring-run-for-fun-bridle-trails/">Spring Run for Fun</a> </td>
-            <td> Kirkland, WA </td>
-            <td><center> 13.1 mi</td>
-            <td><center><a href="https://www.strava.com/activities/13957092678" target="_blank">1:40:31</a></td>
-        </tr>
-        <tr>
-            <td><center> 4/12/25 </td>
-            <td> <a href="https://www.daybreakracing.com/gorge-waterfalls-100k">Gorge Waterfalls</a> </td>
-            <td> Cascade Locks, OR </td>
-            <td><center> 100 km</td>
-            <td><center><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
-        </tr>
-        <tr>
-            <td><center> 6/14/25 </td>
-            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
-            <td> Newcastle, WA </td>
-            <td><center> 14.5 mi</td>
-            <td><center><a href="https://www.strava.com/activities/14799602660" target="_blank">2:28:57</a</td>
-        </tr>
-        <tr>
-            <td><center> 7/5/25 </td>
-            <td> <a href="https://www.aftontrailrun.com/25km-info/">Afton Trail Run</a> </td>
-            <td> Afton, MN </td>
-            <td><center> 25 km</td>
-            <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
-        </tr>
-        <tr>
-            <td><center> 8/9/25 </td>
-            <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
-            <td> Newcastle, WA </td>
-            <td><center> 5 km</td>
-            <td><center><a href="https://www.strava.com/activities/15401163908" target="_blank">24:06</a</td>
-        </tr>
-        <tr>
-            <td><center> 9/27/25 </td>
-            <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
-            <td> Olga, WA </td>
-            <td><center> 71.6 mi relay</td>
-            <td><center><a href="https://www.strava.com/activities/15954726204" target="_blank">11:58:39</a></td>
-        </tr>
-        <tr>
-            <td><center> 10/11/25 </td>
-            <td> <a href="https://www.evergreentrailruns.com/madmeadows/">Mad Meadows</a> </td>
-            <td> Leavenworth, WA </td>
-            <td><center> 50 km</td>
-            <td><center><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
-        </tr>
-        <tr>
-            <td><center> 11/8/25 </td>
-            <td> <a href="https://www.evergreentrailruns.com/grand-ridge-2/">Grand Ridge</a> </td>
-            <td> Issaquah, WA </td>
-            <td><center> 13.1 mi</td>
-            <td><center><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
-        </tr>
-        <tr>
-            <td><center> 11/27/25 </td>
-            <td> <a href="https://bishopsevents.com/event/2025-the-capital-turkey-trot-5k-10k/">The Capital Turkey Trot</a> </td>
-            <td> Washington, DC </td>
-            <td><center> 5 km</td>
-            <td><center><a href="https://www.strava.com/activities/16581904196" target="_blank">19:38</a></td>
+            <td><center> 10 mi</td>
+            <td><center><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
         </tr>
 
     </table>

@@ -2583,6 +2583,17 @@ tags: running
             <td>3</td><td>257</td>
             <td>1</td><td>14</td><td>M 40-49</td>
         </tr>
+        <tr>
+            <td><center> 1/10/2026 </td>
+            <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
+            <td> Kirkland, WA </td>
+            <td> 16.1 </td>
+            <td> 10 </td>
+            <td> 7:04 </td>
+            <td><center><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
+            <td>4</td><td>64</td>
+            <td>3</td><td>25</td><td>M</td>
+        </tr>
 
     </tbody>
 </table>
