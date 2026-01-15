@@ -35,6 +35,13 @@ tags: running
             <td><center> 10 mi</td>
             <td><center><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
         </tr>
+        <tr>
+            <td><center> 4/19/26 </td>
+            <td> <a href="https://tohokumarathon.com/en/">Tohoku Food Marathon</a> </td>
+            <td> Tome, Japan </td>
+            <td><center> 13.1 mi</td>
+            <td><center></td>
+        </tr>
 
     </table>
 
