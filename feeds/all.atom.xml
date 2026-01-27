@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2026-01-05T00:00:00-08:00</updated><entry><title>Races in 2026</title><link href="https://willettk.github.io/races-in-2026.html" rel="alternate"></link><published>2026-01-05T00:00:00-08:00</published><updated>2026-01-05T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-01-05:/races-in-2026.html</id><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/all.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2026-02-14T00:00:00-08:00</updated><entry><title>Races in 2026</title><link href="https://willettk.github.io/races-in-2026.html" rel="alternate"></link><published>2026-02-14T00:00:00-08:00</published><updated>2026-02-14T00:00:00-08:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-02-14:/races-in-2026.html</id><content type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -31,6 +31,13 @@
             &lt;td&gt; Kirkland, WA &lt;/td&gt;
             &lt;td&gt;&lt;center&gt; 10 mi&lt;/td&gt;
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/17003808959" target="_blank"&gt; 1:10:40&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 2/14/26 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://nwtrailruns.com/events/fort-ebey-kettles-trail-run/"&gt;Fort Ebey Kettles Trail Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Coupeville, WA &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt; 26.2 mi&lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;&lt;center&gt; 4/19/26 &lt;/td&gt;
