@@ -1,13 +1,13 @@
 Title: research
 
 ## Academic background
-I got my undergrad degree in physics from [Carleton College](http://www.carleton.edu). I worked as a researcher in astronomy both at Carleton and through the NSF REU program at Lowell Observatory. After college, I went to Boulder to do my Ph.D. at the [University of Colorado](http://aps.colorado.edu). I was a postdoc at the [University of Minnesota](http://physics.umn.edu) from 2011-2016, and was briefly a Visiting Scholar at the [University of Kentucky](http://pa.uky.edu).
+I studied physics as an undergrad at [Carleton College](http://www.carleton.edu) in Minnesota. I worked as a researcher in astronomy both at Carleton and through the NSF REU program at Lowell Observatory. After college, I went to Boulder for my Ph.D. at the [University of Colorado](http://aps.colorado.edu). I was a postdoc at the [University of Minnesota](http://physics.umn.edu) from 2011-2016, and was briefly a Visiting Scholar at the [University of Kentucky](http://pa.uky.edu).
 
-In 2016, I left academia for a fellowship at [Insight Data Science](https://www.insightdatascience.com). I've worked as an Applied Scientist at [Amazon](https://www.amazon.com) in Seattle since 2016.
+In 2016, I moved from academia to a fellowship at [Insight Data Science](https://www.insightdatascience.com). I've worked as an Applied Scientist at [Amazon](https://www.amazon.com) in Seattle since 2016.
 
 ## Data Science
 
-My work as a research and applied scientist in industry includes predictive pricing models, ranking features, high-cardinality ML classification at large-scale, causal inference, and large language models (LLMs). 
+My work as a research and applied scientist in industry includes predictive pricing models, ranking features, high-cardinality ML classification at large-scale, decision agents, causal inference, and large language models (LLMs). 
 
 ## Astrophysics
 

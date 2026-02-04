@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-02-14
+date: 2026-02-04
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -47,6 +47,13 @@ tags: running
             <td> <a href="https://tohokumarathon.com/en/">Tohoku Food Marathon</a> </td>
             <td> Tome, Japan </td>
             <td><center> 13.1 mi</td>
+            <td><center></td>
+        </tr>
+        <tr>
+            <td><center> 7/11/26 </td>
+            <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
+            <td> North Vancouver, BC </td>
+            <td><center> 50 km </td>
             <td><center></td>
         </tr>
 

@@ -1,6 +1,6 @@
 Title: about me
 
-I'm Kyle Willett. I'm a former astronomer and current data scientist, now living in Washington state. By day, I work on ML and causal inference problems at Amazon. In my spare time, I like hiking in national parks, crossing borders, running around, learning languages, exploring my local beer scene, and playing with maps and data.
+I'm Kyle Willett. I'm an applied data scientist and former astronomer living in Washington state. By day, I work on ML and causal inference problems at Amazon. In my spare time, I like hiking in national parks, crossing borders, running around, learning languages, exploring my local beer scene, and playing with maps and data.
 
 #### Contact me
 
