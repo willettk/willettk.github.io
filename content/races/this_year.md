@@ -53,7 +53,7 @@ tags: running
             <td><center> 7/11/26 </td>
             <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
             <td> North Vancouver, BC </td>
-            <td><center> 50 km </td>
+            <td><center> 30 mi </td>
             <td><center></td>
         </tr>
 
