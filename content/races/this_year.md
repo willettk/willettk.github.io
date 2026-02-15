@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-02-04
+date: 2026-02-14
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -40,7 +40,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/fort-ebey-kettles-trail-run/">Fort Ebey Kettles Trail Run</a> </td>
             <td> Coupeville, WA </td>
             <td><center> 26.2 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/17400073802" target="_blank"> 4:50:05</a></td>
         </tr>
         <tr>
             <td><center> 4/19/26 </td>

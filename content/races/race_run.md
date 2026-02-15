@@ -1,5 +1,5 @@
 Title: Running races
-date: 2025-12-01
+date: 2026-02-14
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2593,6 +2593,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
             <td>4</td><td>64</td>
             <td>3</td><td>25</td><td>M</td>
+        </tr>
+        <tr>
+            <td><center> 2/14/2026 </td>
+            <td> <a href="https://nwtrailruns.com/events/fort-ebey-kettles-trail-run/">Fort Ebey Kettles Trail Run</a> </td>
+            <td> Coupeville, WA </td>
+            <td> 42.2 </td>
+            <td> 26.2 </td>
+            <td> 11:04 </td>
+            <td><center><a href="https://www.strava.com/activities/17400073802" target="_blank"> 4:50:05</a></td>
+            <td>9</td><td>30</td>
+            <td>3</td><td>6</td><td>M 40-49</td>
         </tr>
 
     </tbody>
