@@ -43,6 +43,13 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/17400073802" target="_blank"> 4:50:05</a></td>
         </tr>
         <tr>
+            <td><center> 3/14/26 </td>
+            <td> <a href="https://nwtrailruns.com/events/pie-high-trail-run/">Pie High Trail Run</a> </td>
+            <td> Snohomish, WA </td>
+            <td><center> 10 km</td>
+            <td><center><a href="https://www.strava.com/activities/17722322690" target="_blank"> 54:33</a></td>
+        </tr>
+        <tr>
             <td><center> 4/19/26 </td>
             <td> <a href="https://tohokumarathon.com/en/">Tohoku Food Marathon</a> </td>
             <td> Tome, Japan </td>

@@ -2605,6 +2605,17 @@ tags: running
             <td>9</td><td>30</td>
             <td>3</td><td>6</td><td>M 40-49</td>
         </tr>
+        <tr>
+            <td><center> 3/14/2026 </td>
+            <td> <a href="https://nwtrailruns.com/events/pie-high-trail-run/">Pie High Trail Run</a> </td>
+            <td> Snohomish, WA </td>
+            <td> 10 </td>
+            <td> 6.2 </td>
+            <td> 8:47 </td>
+            <td><center><a href="https://www.strava.com/activities/17722322690" target="_blank"> 54:33</a></td>
+            <td>2</td><td>33</td>
+            <td>1</td><td>2</td><td>M 40-49</td>
+        </tr>
 
     </tbody>
 </table>
