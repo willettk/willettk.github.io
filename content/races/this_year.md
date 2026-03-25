@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-03-14
+date: 2026-03-24
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -61,6 +61,13 @@ tags: running
             <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
             <td> North Vancouver, BC </td>
             <td><center> 30 mi </td>
+            <td><center></td>
+        </tr>
+        <tr>
+            <td><center> 10/10/26 </td>
+            <td> <a href="https://wallatrails.com/events/golden-6-hour/">Golden 6 Hour</a> </td>
+            <td> Cle Elum, WA </td>
+            <td><center> 6 hr </td>
             <td><center></td>
         </tr>
 
