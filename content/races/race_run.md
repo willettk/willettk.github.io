@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-03-14
+date: 2026-04-20
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2615,6 +2615,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/17722322690" target="_blank"> 54:33</a></td>
             <td>2</td><td>33</td>
             <td>1</td><td>2</td><td>M 40-49</td>
+        </tr>
+        <tr>
+            <td><center> 4/19/2026 </td>
+            <td> <a href="https://tohokumarathon.com/en/">Tōhoku Food Marathon</a> </td>
+            <td> Tome, Japan </td>
+            <td> 21.1 </td>
+            <td> 13.1 </td>
+            <td> 7:29 </td>
+            <td><center><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
+            <td></td><td></td>
+            <td></td><td></td><td></td>
         </tr>
 
     </tbody>

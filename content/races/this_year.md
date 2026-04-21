@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-03-24
+date: 2026-04-20
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -51,10 +51,10 @@ tags: running
         </tr>
         <tr>
             <td><center> 4/19/26 </td>
-            <td> <a href="https://tohokumarathon.com/en/">Tohoku Food Marathon</a> </td>
+            <td> <a href="https://tohokumarathon.com/en/">Tōhoku Food Marathon</a> </td>
             <td> Tome, Japan </td>
             <td><center> 13.1 mi</td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
         </tr>
         <tr>
             <td><center> 7/11/26 </td>
