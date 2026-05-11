@@ -57,6 +57,13 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
         </tr>
         <tr>
+            <td><center> 5/25/26 </td>
+            <td> <a href="https://minnesota.usatf.org/events/2026/2026-brian-kraft-memorial-5k">Brian Kraft Memorial 5K</a> </td>
+            <td> Minneapolis, MN </td>
+            <td><center> 5 km</td>
+            <td></td>
+        </tr>
+        <tr>
             <td><center> 7/11/26 </td>
             <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
             <td> North Vancouver, BC </td>
