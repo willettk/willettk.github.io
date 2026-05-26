@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-04-20
+date: 2026-05-25
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2626,6 +2626,17 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
             <td></td><td></td>
             <td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td><center> 5/25/2026 </td>
+            <td> <a href="https://minnesota.usatf.org/events/2026/2026-brian-kraft-memorial-5k">Brian Kraft Memorial 5K</a> </td>
+            <td> Minneapolis, MN </td>
+            <td> 5 </td>
+            <td> 3.1 </td>
+            <td> 6:12 </td>
+            <td><center><a href="https://www.strava.com/activities/18648451050" target="_blank"> 19:17</a></td>
+            <td>142</td><td>448</td>
+            <td>22</td><td>49</td><td>M 40-49</td>
         </tr>
 
     </tbody>
