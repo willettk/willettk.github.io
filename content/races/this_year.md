@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-04-20
+date: 2026-05-25
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
