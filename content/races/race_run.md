@@ -2638,6 +2638,17 @@ tags: running
             <td>142</td><td>448</td>
             <td>22</td><td>49</td><td>M 40-49</td>
         </tr>
+        <tr>
+            <td><center> 7/11/26 </td>
+            <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
+            <td> North Vancouver, BC </td>
+            <td> 48.3 </td>
+            <td> 30 </td>
+            <td> 15:59 </td>
+            <td><center><a href="https://www.strava.com/activities/19274640432" target="_blank"> 7:59:35</a></td>
+            <td>108</td><td>193</td>
+            <td>19</td><td>36</td><td>M 40-49</td>
+        </tr>
 
     </tbody>
 </table>
