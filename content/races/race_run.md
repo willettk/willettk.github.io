@@ -2639,7 +2639,7 @@ tags: running
             <td>22</td><td>49</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 7/11/26 </td>
+            <td><center> 7/11/2026 </td>
             <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
             <td> North Vancouver, BC </td>
             <td> 48.3 </td>
