@@ -2397,134 +2397,134 @@ tags: running
             <td>1</td><td>4</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 6/8/2024 </td>
+            <td> 6/8/2024 </td>
             <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
             <td> Newcastle, WA </td>
             <td> 13.2 </td>
             <td> 8.2 </td>
             <td> 8:23 </td>
-            <td><center><a href="https://www.strava.com/activities/11605518421" target="_blank">1:08:43</a></td>
+            <td><a href="https://www.strava.com/activities/11605518421" target="_blank">1:08:43</a></td>
             <td>7</td><td>78</td>
             <td>2</td><td>11</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 7/21/2024 </td>
+            <td> 7/21/2024 </td>
             <td> <a href="https://www.raspberryrun.com/">Hopkins Raspberry Run</a> </td>
             <td> Hopkins, MN </td>
             <td> 1.6 </td>
             <td> 1 </td>
             <td> 5:39 </td>
-            <td><center><a href="https://www.strava.com/activities/11946163364" target="_blank">5:39</a></td>
+            <td><a href="https://www.strava.com/activities/11946163364" target="_blank">5:39</a></td>
             <td>44</td><td>430</td>
             <td>6</td><td>31</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 8/10/2024 </td>
+            <td> 8/10/2024 </td>
             <td> <a href="https://www.evergreentrailruns.com/larrabee-lakes/">Larrabee Lakes</a> </td>
             <td> Bellingham, WA </td>
             <td> 25 </td>
             <td> 15.5 </td>
             <td> 9:52 </td>
-            <td><center><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
+            <td><a href="https://www.strava.com/activities/12113633536/overview" target="_blank">2:33:10</a></td>
             <td>2</td><td>79</td>
             <td>1</td><td>10</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 10/5/2024 </td>
+            <td> 10/5/2024 </td>
             <td> <a href="https://nwtrailruns.com/events/middle-fork-trail-run/">Middle Fork Trail Run</a> </td>
             <td> North Bend, WA </td>
             <td> 21.1 </td>
             <td> 13.1 </td>
             <td> 8:56 </td>
-            <td><center><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
+            <td><a href="https://www.strava.com/activities/12583067599" target="_blank">1:57:03</a></td>
             <td>7</td><td>125</td>
             <td>3</td><td>16</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 11/2/2024 </td>
+            <td> 11/2/2024 </td>
             <td> <a href="https://nwtrailruns.com/events/carkeek-cooler-trail-run/">Carkeek Cooler</a> </td>
             <td> Seattle, WA </td>
             <td> 10 </td>
             <td> 6.2 </td>
             <td> 7:29 </td>
-            <td><center><a href="https://www.strava.com/activities/12806924983/overview" target="_blank">46:29</a></td>
+            <td><a href="https://www.strava.com/activities/12806924983/overview" target="_blank">46:29</a></td>
             <td>6</td><td>126</td>
             <td>3</td><td>26</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 11/9/2024 </td>
+            <td> 11/9/2024 </td>
             <td> <a href="https://www.evergreentrailruns.com/grand-ridge-2/">Grand Ridge</a> </td>
             <td> Issaquah, WA </td>
             <td> 21.1 </td>
             <td> 13.1 </td>
             <td> 10:11 </td>
-            <td><center><a href="https://www.strava.com/activities/12862072101" target="_blank">2:13:23</a></td>
+            <td><a href="https://www.strava.com/activities/12862072101" target="_blank">2:13:23</a></td>
             <td>18</td><td>218</td>
             <td>3</td><td>18</td><td>M 40-44</td>
         </tr>
         <tr>
-            <td><center> 11/28/2024 </td>
+            <td> 11/28/2024 </td>
             <td> <a href="https://trotforhunger.org/">America's Trot for Hunger</a> </td>
             <td> Washington, DC </td>
             <td> 5 </td>
             <td> 3.1 </td>
             <td> 6:10 </td>
-            <td><center><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
+            <td><a href="https://www.strava.com/activities/13001877705" target="_blank">19:08</a></td>
             <td>51</td><td>1485</td>
             <td>4</td><td>58</td><td>M 40-44</td>
         </tr>
         <tr>
-            <td><center> 12/21/2024 </td>
+            <td> 12/21/2024 </td>
             <td> <a href="https://nwtrailruns.com/events/seward-solstice-run/">Seward Solstice</a> </td>
             <td> Seattle, WA </td>
             <td> 10 </td>
             <td> 6.2 </td>
             <td> 7:27 </td>
-            <td><center><a href="https://www.strava.com/activities/13163776054/overview" target="_blank">46:20</a></td>
+            <td><a href="https://www.strava.com/activities/13163776054/overview" target="_blank">46:20</a></td>
             <td>8</td><td>134</td>
             <td>2</td><td>19</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 1/11/2025 </td>
+            <td> 1/11/2025 </td>
             <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
             <td> Kirkland, WA </td>
             <td> 50 </td>
             <td> 31.1 </td>
             <td> 10:13 </td>
-            <td><center><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
+            <td><a href="https://www.strava.com/activities/13330490865" target="_blank">5:03:17</a></td>
             <td>8</td><td>38</td>
             <td>6</td><td>25</td><td>M</td>
         </tr>
         <tr>
-            <td><center> 3/22/2025 </td>
+            <td> 3/22/2025 </td>
             <td> <a href="https://nwtrailruns.com/events/spring-run-for-fun-bridle-trails/">Spring Run for Fun</a> </td>
             <td> Kirkland, WA </td>
             <td> 21.1 </td>
             <td> 13.1 </td>
             <td> 7:40 </td>
-            <td><center><a href="https://www.strava.com/activities/13957092678" target="_blank">1:40:31</a></td>
+            <td><a href="https://www.strava.com/activities/13957092678" target="_blank">1:40:31</a></td>
             <td>2</td><td>49</td>
             <td>1</td><td>7</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 4/12/2025 </td>
+            <td> 4/12/2025 </td>
             <td> <a href="https://www.daybreakracing.com/gorge-waterfalls-100k">Gorge Waterfalls</a> </td>
             <td> Cascade Locks, OR </td>
             <td> 100 </td>
             <td> 62.1 </td>
             <td> 15:37 </td>
-            <td><center><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
+            <td><a href="https://www.strava.com/activities/14161247070" target="_blank">16:10:05</a></td>
             <td>237</td><td>310</td>
             <td>49</td><td>67</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 6/14/2025 </td>
+            <td> 6/14/2025 </td>
             <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
             <td> Newcastle, WA </td>
             <td> 23.3 </td>
             <td> 14.5 </td>
             <td> 10:16 </td>
-            <td><center><a href="https://www.strava.com/activities/14799602660" target="_blank">2:28:57</a</td>
+            <td><a href="https://www.strava.com/activities/14799602660" target="_blank">2:28:57</a</td>
             <td>13</td><td>73</td>
             <td>6</td><td>14</td><td>M 40-49</td>
         </tr>
@@ -2535,128 +2535,128 @@ tags: running
             <td> 25 </td>
             <td> 15.5 </td>
             <td> 9:11 </td>
-            <td><center><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
+            <td><a href="https://www.strava.com/activities/15015893203" target="_blank">2:22:45</a</td>
             <td> 29</td><td> 472</td>
             <td> 10</td><td> 88</td><td> M 40+ </td>
         </tr>
         <tr>
-            <td><center> 8/9/2025 </td>
+            <td> 8/9/2025 </td>
             <td> <a href="https://cougar.seattlerunningclub.org/">Cougar Mountain Trail Run</a> </td>
             <td> Newcastle, WA </td>
             <td> 5 </td>
             <td> 3.1 </td>
             <td> 7:45 </td>
-            <td><center><a href="https://www.strava.com/activities/15401163908" target="_blank">24:06</a</td>
+            <td><a href="https://www.strava.com/activities/15401163908" target="_blank">24:06</a</td>
             <td>7</td><td>111</td>
             <td>2</td><td>8</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 10/11/2025 </td>
+            <td> 10/11/2025 </td>
             <td> <a href="https://www.evergreentrailruns.com/madmeadows/">Mad Meadows</a> </td>
             <td> Leavenworth, WA </td>
             <td> 50 </td>
             <td> 31.1 </td>
             <td> 15:33 </td>
-            <td><center><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
+            <td><a href="https://www.strava.com/activities/16110699508" target="_blank">8:03:05</a></td>
             <td>33</td><td>137</td>
             <td>4</td><td>15</td><td>M 40-44</td>
         </tr>
         <tr>
-            <td><center> 11/8/2025 </td>
+            <td> 11/8/2025 </td>
             <td> <a href="https://www.evergreentrailruns.com/grand-ridge-2/">Grand Ridge</a> </td>
             <td> Issaquah, WA </td>
             <td> 21.1 </td>
             <td> 13.1 </td>
             <td> 10:13 </td>
-            <td><center><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
+            <td><a href="https://www.strava.com/activities/16397111413" target="_blank">2:13:49</a></td>
             <td>18</td><td>189</td>
             <td>3</td><td>14</td><td>M 40-44</td>
         </tr>
         <tr>
-            <td><center> 11/27/2025 </td>
+            <td> 11/27/2025 </td>
             <td> <a href="https://bishopsevents.com/event/2025-the-capital-turkey-trot-5k-10k/">The Capital Turkey Trot</a> </td>
             <td> Washington, DC </td>
             <td> 5 </td>
             <td> 3.1 </td>
             <td> 6:19 </td>
-            <td><center><a href="https://www.strava.com/activities/16581904196" target="_blank">19:38</a></td>
+            <td><a href="https://www.strava.com/activities/16581904196" target="_blank">19:38</a></td>
             <td>3</td><td>257</td>
             <td>1</td><td>14</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 1/10/2026 </td>
+            <td> 1/10/2026 </td>
             <td> <a href="https://bridle.seattlerunningclub.org/">Bridle Trails</a> </td>
             <td> Kirkland, WA </td>
             <td> 16.1 </td>
             <td> 10 </td>
             <td> 7:04 </td>
-            <td><center><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
+            <td><a href="https://www.strava.com/activities/17003808959" target="_blank"> 1:10:40</a></td>
             <td>4</td><td>64</td>
             <td>3</td><td>25</td><td>M</td>
         </tr>
         <tr>
-            <td><center> 2/14/2026 </td>
+            <td> 2/14/2026 </td>
             <td> <a href="https://nwtrailruns.com/events/fort-ebey-kettles-trail-run/">Fort Ebey Kettles Trail Run</a> </td>
             <td> Coupeville, WA </td>
             <td> 42.2 </td>
             <td> 26.2 </td>
             <td> 11:04 </td>
-            <td><center><a href="https://www.strava.com/activities/17400073802" target="_blank"> 4:50:05</a></td>
+            <td><a href="https://www.strava.com/activities/17400073802" target="_blank"> 4:50:05</a></td>
             <td>9</td><td>30</td>
             <td>3</td><td>6</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 3/14/2026 </td>
+            <td> 3/14/2026 </td>
             <td> <a href="https://nwtrailruns.com/events/pie-high-trail-run/">Pie High Trail Run</a> </td>
             <td> Snohomish, WA </td>
             <td> 10 </td>
             <td> 6.2 </td>
             <td> 8:47 </td>
-            <td><center><a href="https://www.strava.com/activities/17722322690" target="_blank"> 54:33</a></td>
+            <td><a href="https://www.strava.com/activities/17722322690" target="_blank"> 54:33</a></td>
             <td>2</td><td>33</td>
             <td>1</td><td>2</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 4/19/2026 </td>
+            <td> 4/19/2026 </td>
             <td> <a href="https://tohokumarathon.com/en/">Tōhoku Food Marathon</a> </td>
             <td> Tome, Japan </td>
             <td> 21.1 </td>
             <td> 13.1 </td>
             <td> 7:29 </td>
-            <td><center><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
+            <td><a href="https://www.strava.com/activities/18165509891" target="_blank"> 1:38:13</a></td>
             <td></td><td></td>
             <td></td><td></td><td></td>
         </tr>
         <tr>
-            <td><center> 5/25/2026 </td>
+            <td> 5/25/2026 </td>
             <td> <a href="https://minnesota.usatf.org/events/2026/2026-brian-kraft-memorial-5k">Brian Kraft Memorial 5K</a> </td>
             <td> Minneapolis, MN </td>
             <td> 5 </td>
             <td> 3.1 </td>
             <td> 6:12 </td>
-            <td><center><a href="https://www.strava.com/activities/18648451050" target="_blank"> 19:17</a></td>
+            <td><a href="https://www.strava.com/activities/18648451050" target="_blank"> 19:17</a></td>
             <td>142</td><td>448</td>
             <td>22</td><td>49</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 7/11/2026 </td>
+            <td> 7/11/2026 </td>
             <td> <a href="https://kneeknacker.com/">Knee Knackering North Shore Trail Run</a> </td>
             <td> North Vancouver, BC </td>
             <td> 48.3 </td>
             <td> 30 </td>
             <td> 15:59 </td>
-            <td><center><a href="https://www.strava.com/activities/19274640432" target="_blank"> 7:59:35</a></td>
+            <td><a href="https://www.strava.com/activities/19274640432" target="_blank"> 7:59:35</a></td>
             <td>108</td><td>193</td>
             <td>19</td><td>36</td><td>M 40-49</td>
         </tr>
         <tr>
-            <td><center> 8/4/2026 </td>
+            <td> 8/4/2026 </td>
             <td> <a href="https://nwtrailruns.com/events/interlaken-ice-cream-dash/">Interlaken Ice Cream Dash</a> </td>
             <td> Seattle, WA </td>
             <td> 5 </td>
             <td> 3.1 </td>
             <td> 7:39 </td>
-            <td><center><a href="https://www.strava.com/activities/19606503041" target="_blank"> 23:45</a></td>
+            <td><a href="https://www.strava.com/activities/19606503041" target="_blank"> 23:45</a></td>
             <td>7</td><td>84</td>
             <td>3</td><td>10</td><td>M 40-49</td>
         </tr>
