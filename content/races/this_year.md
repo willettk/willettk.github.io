@@ -71,6 +71,13 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/19274640432" target="_blank"> 7:59:35</a></td>
         </tr>
         <tr>
+            <td><center> 8/4/26 </td>
+            <td> <a href="https://nwtrailruns.com/events/interlaken-ice-cream-dash/">Interlaken Ice Cream Dash</a> </td>
+            <td> Seattle, WA </td>
+            <td><center> 5 km </td>
+            <td><center><a href="https://www.strava.com/activities/19606503041" target="_blank"> 23:45</a></td>
+        </tr>
+        <tr>
             <td><center> 9/19/26 </td>
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
