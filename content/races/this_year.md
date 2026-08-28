@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-05-25
+date: 2026-08-27
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -78,10 +78,24 @@ tags: running
             <td><center><a href="https://www.strava.com/activities/19606503041" target="_blank"> 23:45</a></td>
         </tr>
         <tr>
+            <td><center> 9/12/26 </td>
+            <td> <a href="https://nwtrailruns.com/events/corn-maze-craze/">Corn Maze Craze</a> </td>
+            <td> Snohomish, WA </td>
+            <td><center> 7 km </td>
+            <td><center></td>
+        </tr>
+        <tr>
             <td><center> 9/19/26 </td>
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
-            <td><center> 115.2 mi (relay) </td>
+            <td><center> 71.6 mi (relay) </td>
+            <td><center></td>
+        </tr>
+        <tr>
+            <td><center> 9/26/26 </td>
+            <td> <a href="https://www.evergreentrailruns.com/fidalgo-trail-run/">Fidalgo Trail Run</a> </td>
+            <td> Anacortes, WA </td>
+            <td><center> 13.1 mi </td>
             <td><center></td>
         </tr>
         <tr>
