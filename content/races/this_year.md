@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-08-27
+date: 2026-09-12
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -82,7 +82,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/corn-maze-craze/">Corn Maze Craze</a> </td>
             <td> Snohomish, WA </td>
             <td><center> 7 km </td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/20146731647" target="_blank"> 43:35</a></td>
         </tr>
         <tr>
             <td><center> 9/19/26 </td>

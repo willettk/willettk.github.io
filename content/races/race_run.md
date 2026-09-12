@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-05-25
+date: 2026-09-12
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2659,6 +2659,18 @@ tags: running
             <td><a href="https://www.strava.com/activities/19606503041" target="_blank"> 23:45</a></td>
             <td>7</td><td>84</td>
             <td>3</td><td>10</td><td>M 40-49</td>
+        </tr>
+
+        <tr>
+            <td> 9/12/2026 </td>
+            <td> <a href="https://nwtrailruns.com/events/corn-maze-craze/">Corn Maze Craze</a> </td>
+            <td> Snohomish, WA </td>
+            <td> 7 </td>
+            <td> 4.3 </td>
+            <td> 10:01 </td>
+            <td><a href="https://www.strava.com/activities/20146731647" target="_blank"> 43:35</a></td>
+            <td>19</td><td>36</td>
+            <td>5</td><td>6</td><td>M 40-49</td>
         </tr>
 
     </tbody>
