@@ -1,5 +1,5 @@
 Title: Relay races
-date: 2025-09-28
+date: 2026-09-21
 tags: relay, running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -123,7 +123,7 @@ tags: relay, running
         </tr>
 
         <tr>
-            <td> 9/19/25 </td>
+            <td> 9/19/26 </td>
             <td> <a href="http://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA</td>
             <td> 115.2 </td>
