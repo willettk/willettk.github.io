@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-09-12
+date: 2026-09-21
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -89,7 +89,7 @@ tags: running
             <td> <a href="https://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
             <td> Olga, WA </td>
             <td><center> 71.6 mi (relay) </td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/20260703959" target="_blank">9:58:12</a></td>
         </tr>
         <tr>
             <td><center> 9/26/26 </td>

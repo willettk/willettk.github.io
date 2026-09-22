@@ -122,6 +122,19 @@ tags: relay, running
             <td></td>
         </tr>
 
+        <tr>
+            <td> 9/19/25 </td>
+            <td> <a href="http://nwtrailruns.com/events/moran-constitutional-relay/">Moran Constitutional Relay</a> </td>
+            <td> Olga, WA</td>
+            <td> 115.2 </td>
+            <td> 71.6 </td>
+            <td> 8:22 </td>
+            <td> 9:58:42 <a href="https://www.strava.com/activities/20245162829" target="_blank"><br>Leg 6</a>, <a href="https://www.strava.com/activities/20246052931" target="_blank">Leg 8</a>, <a href="https://www.strava.com/activities/20260703959" target="_blank">Leg 12</a></td>
+            <td> 1</td><td>46</td>
+            <td> </td><td></td>
+            <td></td>
+        </tr>
+
     </tbody>
 </table>
 
