@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-09-21
+date: 2026-09-26
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -96,7 +96,7 @@ tags: running
             <td> <a href="https://www.evergreentrailruns.com/fidalgo-trail-run/">Fidalgo Trail Run</a> </td>
             <td> Anacortes, WA </td>
             <td><center> 13.1 mi </td>
-            <td><center></td>
+            <td><center><a href="https://www.strava.com/activities/20341665635" target="_blank">2:06:49</a></td>
         </tr>
         <tr>
             <td><center> 10/10/26 </td>

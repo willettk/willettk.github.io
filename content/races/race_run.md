@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-09-12
+date: 2026-09-26
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2671,6 +2671,18 @@ tags: running
             <td><a href="https://www.strava.com/activities/20146731647" target="_blank"> 43:35</a></td>
             <td>19</td><td>36</td>
             <td>5</td><td>6</td><td>M 40-49</td>
+        </tr>
+
+        <tr>
+            <td> 9/26/2026 </td>
+            <td> <a href="https://www.evergreentrailruns.com/fidalgo-trail-run/">Fidalgo Trail Run</a> </td>
+            <td> Anacortes, WA </td>
+            <td> 21.1 </td>
+            <td> 13.1 </td>
+            <td> 9:40 </td>
+            <td><a href="https://www.strava.com/activities/20341665635" target="_blank">2:06:49</a></td>
+            <td>4</td><td>148</td>
+            <td>1</td><td>17</td><td>M 40-49</td>
         </tr>
 
     </tbody>
