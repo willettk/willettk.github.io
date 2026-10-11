@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-09-26
+date: 2026-10-10
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2683,6 +2683,18 @@ tags: running
             <td><a href="https://www.strava.com/activities/20341665635" target="_blank">2:06:49</a></td>
             <td>4</td><td>148</td>
             <td>1</td><td>17</td><td>M 40-49</td>
+        </tr>
+
+        <tr>
+            <td> 10/10/2026 </td>
+            <td> <a href="https://wallatrails.com/events/golden-6-hour/">Golden 6 Hour</a> </td>
+            <td> Cle Elum, WA </td>
+            <td> 28.6 </td>
+            <td> 46.0 </td>
+            <td> 12:14 </td>
+            <td><a href="https://www.strava.com/activities/20534463156" target="_blank">6:00:00</a></td>
+            <td>2</td><td>85</td>
+            <td>1</td><td></td><td>M</td>
         </tr>
 
     </tbody>
