@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2026-10-10T00:00:00-07:00</updated><entry><title>Races in 2026</title><link href="https://willettk.github.io/races-in-2026.html" rel="alternate"></link><published>2026-10-10T00:00:00-07:00</published><updated>2026-10-10T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-10-10:/races-in-2026.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kyle Willett - races</title><link href="https://willettk.github.io/" rel="alternate"></link><link href="https://willettk.github.io/feeds/races.atom.xml" rel="self"></link><id>https://willettk.github.io/</id><updated>2026-10-31T00:00:00-07:00</updated><entry><title>Races in 2026</title><link href="https://willettk.github.io/races-in-2026.html" rel="alternate"></link><published>2026-10-31T00:00:00-07:00</published><updated>2026-10-31T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-10-31:/races-in-2026.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -150,6 +150,13 @@
             &lt;td&gt;&lt;center&gt; 6 hr &lt;/td&gt;
             &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/20534463156" target="_blank"&gt;28.6 miles&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 10/31/26 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://cougar.seattlerunningclub.org/october/"&gt;Cougar Mountain Trail Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Newcastle, WA &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt; 7.6 mi &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/20807613028" target="_blank"&gt;1:02:51&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
 
     &lt;/table&gt;
 
@@ -162,7 +169,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../running-races.html"&gt;All my races&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2026-10-10T00:00:00-07:00</published><updated>2026-10-10T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-10-10:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;/ul&gt;</content><category term="races"></category><category term="running"></category></entry><entry><title>Running races</title><link href="https://willettk.github.io/running-races.html" rel="alternate"></link><published>2026-10-31T00:00:00-07:00</published><updated>2026-10-31T00:00:00-07:00</updated><author><name>Kyle Willett</name></author><id>tag:willettk.github.io,2026-10-31:/running-races.html</id><summary type="html">&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
     &lt;head&gt;
     &lt;script type="text/javascript" src="extra/tablesort/src/tablesort.js"&gt;&lt;/script&gt;
     &lt;script src='extra/tablesort/src/sorts/tablesort.number.js'&gt;&lt;/script&gt;
@@ -2907,6 +2914,17 @@
             &lt;td&gt;&lt;a href="https://www.strava.com/activities/20534463156" target="_blank"&gt;6:00:00&lt;/a&gt;&lt;/td&gt;
             &lt;td&gt;2&lt;/td&gt;&lt;td&gt;85&lt;/td&gt;
             &lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;M&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;center&gt; 10/31/2026 &lt;/td&gt;
+            &lt;td&gt; &lt;a href="https://cougar.seattlerunningclub.org/october/"&gt;Cougar Mountain Trail Run&lt;/a&gt; &lt;/td&gt;
+            &lt;td&gt; Newcastle, WA &lt;/td&gt;
+            &lt;td&gt; 12.2 &lt;/td&gt;
+            &lt;td&gt; 7.6 &lt;/td&gt;
+            &lt;td&gt; 8:16 &lt;/td&gt;
+            &lt;td&gt;&lt;center&gt;&lt;a href="https://www.strava.com/activities/20807613028" target="_blank"&gt;1:02:51&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;15&lt;/td&gt;&lt;td&gt;84&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;M 40-49&lt;/td&gt;
         &lt;/tr&gt;
 
     &lt;/tbody&gt;
