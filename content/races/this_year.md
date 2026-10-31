@@ -1,5 +1,5 @@
 Title: Races in 2026
-date: 2026-10-10
+date: 2026-10-31
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -104,6 +104,13 @@ tags: running
             <td> Cle Elum, WA </td>
             <td><center> 6 hr </td>
             <td><center><a href="https://www.strava.com/activities/20534463156" target="_blank">28.6 miles</a></td>
+        </tr>
+        <tr>
+            <td><center> 10/31/26 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/october/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td><center> 7.6 mi </td>
+            <td><center><a href="https://www.strava.com/activities/20807613028" target="_blank">1:02:51</a></td>
         </tr>
 
     </table>

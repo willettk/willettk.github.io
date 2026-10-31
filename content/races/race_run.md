@@ -1,5 +1,5 @@
 Title: Running races
-date: 2026-10-10
+date: 2026-10-31
 tags: running
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -2695,6 +2695,17 @@ tags: running
             <td><a href="https://www.strava.com/activities/20534463156" target="_blank">6:00:00</a></td>
             <td>2</td><td>85</td>
             <td>1</td><td></td><td>M</td>
+        </tr>
+        <tr>
+            <td><center> 10/31/2026 </td>
+            <td> <a href="https://cougar.seattlerunningclub.org/october/">Cougar Mountain Trail Run</a> </td>
+            <td> Newcastle, WA </td>
+            <td> 12.2 </td>
+            <td> 7.6 </td>
+            <td> 8:16 </td>
+            <td><center><a href="https://www.strava.com/activities/20807613028" target="_blank">1:02:51</a></td>
+            <td>15</td><td>84</td>
+            <td>4</td><td>16</td><td>M 40-49</td>
         </tr>
 
     </tbody>
