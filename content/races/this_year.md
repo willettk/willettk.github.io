@@ -112,6 +112,13 @@ tags: running
             <td><center> 7.6 mi </td>
             <td><center><a href="https://www.strava.com/activities/20807613028" target="_blank">1:02:51</a></td>
         </tr>
+        <tr>
+            <td><center> 11/27/26 </td>
+            <td> <a href="https://run-minnesota.org/black-friday-5k/">Black Friday 5K</a> </td>
+            <td> St. Paul, MN </td>
+            <td><center> 5 km</td>
+            <td></td>
+        </tr>
 
     </table>
 
